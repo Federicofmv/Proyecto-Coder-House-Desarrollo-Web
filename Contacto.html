@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Arvo&family=Cairo:wght@600&family=Pattaya&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@300&display=swap" rel="stylesheet">
+    <title>Contacto</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header class="headerContacto">
+        <div class="headerContacto__div container-fluid p-5  bg-dark text-white">
+            <h1>Hola, en esta sección podes <span class="headerContacto__span">contactarnos</span></h1>
+        </div>
+        <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+            <div class="barraNavegacion container-fluid">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Jujuy.html">Jujuy</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="Salta.html">Salta</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Tucuman.html">Tucuman</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Catamarca.html">Catamarca</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link active " href="Contacto.html">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="encabezadoMainContacto">
+            <div class="encabezadoMainContacto__divTexto">
+            <h2 class="encabezadoMainContacto__subtitulo">Contacto</h2>  
+            <p class="encabezadoMainContacto__texto">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum est voluptates reprehenderit
+                voluptatibus quasi sapiente delectus ut natus omnis atque mollitia impedit placeat corrupti
+                perspiciatis debitis saepe, asperiores ex rem.Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum est voluptates reprehenderit
+                voluptatibus quasi sapiente delectus ut natus omnis atque mollitia impedit placeat corrupti
+                perspiciatis debitis saepe, asperiores ex rem.Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum est voluptates reprehenderit
+                voluptatibus quasi sapiente delectus ut natus omnis atque mollitia impedit placeat corrupti
+                perspiciatis debitis saepe, asperiores ex rem.</p>
+            </div>    
+            <div class="encabezadoMainContacto__divImg">
+                <img class="encabezadoMainContacto__img" src="img/catamarca.jpg" alt="">
+            </div>    
+        </div> 
+        <div class="encabezadoMain__barraInferior">
+            <p></p>
+        </div>   
+        <form class="ms-5 me-5">
+            <div class="mb-3">
+                <label for="exampleInputEmail1" class="form-label">Ingresar correo electrónico</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                <div id="emailHelp" class="form-text">No compartiremos tu correo con nadie mas.</div>
+            </div>
+            <div class="mb-3">
+                <label for="exampleInputPassword1" class="form-label">Ingresar número de celular</label>
+                <input type="number" class="form-control" id="exampleInputPassword1">
+            </div>
+            <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label">Realice su consulta aqui:</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+            </div>
+            <div class="mb-3 form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">Deseo recibir información a mi correo</label>
+            </div>
+            <!-- Button trigger modal -->
+            <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                Enviar consulta
+            </button>
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLabel">Muchas gracias!</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            Su consulta fue enviada y pronto le daremos una respuesta.
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </main>
+    <footer>
+        <!-- footer metodologia bem -->
+          <div class="divLogosFooter container-fluid">
+          <p class="divLogosFooter__texto">Contactanos a nuestras redes sociales:</p> 
+          <a class="divLogosFooter__enlace" href="">
+            <div class="divLogosFooter__centrarLogo">                    
+              <img class="divLogosFooter__logo" src="img/whatsapp.png" alt="logoWhatsapp">
+              <p class="divLogosFooter__textoLogo" >+54 116485462</p>
+              </div>
+          </a>          
+          <a class="divLogosFooter__enlace" href="">
+            <div class="divLogosFooter__centrarLogo">
+              <img class="divLogosFooter__logo" src="img/instagram.png" alt="logoInstagram">
+              <p class="divLogosFooter__textoLogo">@Turismo_NorteArgentino</p>
+              </div>
+          </a>
+          <a class="divLogosFooter__enlace" href="">
+          <div class="divLogosFooter__centrarLogo">
+          <img class="divLogosFooter__logo" src="img/facebook.png" alt="logoFacebook">
+          <p class="divLogosFooter__textoLogo">Fb: Turismo Norte Argentino</p>
+          </div>
+          </a>
+          </div>
+          <div>
+          <p class="divLogosFooterContacto__textoInferior">Federico Villarreal.Todos los derechos reservados 2021.</p>  
+          </div> 
+      </footer>         
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
