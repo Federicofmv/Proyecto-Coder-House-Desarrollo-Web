@@ -1651,6 +1651,11 @@
     color: #fa9d08;
   }
 
+  .navbarPosition {
+    position: fixed;
+    top: 65px;
+  }
+
   /*Main*/
   .encabezadoMain {
     display: grid;
