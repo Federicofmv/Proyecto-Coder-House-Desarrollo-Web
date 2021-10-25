@@ -5,20 +5,19 @@
         margin: 0;
         padding: 0;
     }
-    
-    /* Header */
-    .header {
-        .header__div {
-            border-bottom: 1px solid #9c9c9c;
-        }
-    
-        .header__span {
-            color: $color-naranja;
-    
-        }    
-    }
+     
+  
     
     /*Main*/
+    .mainLeyenda {
+        .mainLeyenda__div {
+            border-top: 1px solid #9c9c9c;
+        }
+    
+        .mainLeyenda__span {
+            color: $color-naranja;    
+        }    
+    }
     
     .encabezadoMain {
         display: flex;
@@ -262,19 +261,18 @@
     }
     
     /* Header */
-    .header {
-        .header__div {
-            border-bottom: 1px solid #9c9c9c;
-        }
-    
-        .header__span {
-            color: $color-naranja;
-    
-        }    
-    }
+ 
     
     /*Main*/
+    .mainLeyenda {
+        .mainLeyenda__div {
+            border-top: 1px solid #9c9c9c;
+        }
     
+        .mainLeyenda__span {
+            color: $color-naranja;    
+        }    
+    }   
     .encabezadoMain {
         display: flex;
         flex-direction: column;
@@ -510,17 +508,17 @@
     }
     
     /* Header */
-    .header {          
-        .header__div {
-            border-bottom: 1px solid #9c9c9c;
+   
+    /*Main*/
+    .mainLeyenda {
+        .mainLeyenda__div {
+            border-top: 1px solid #9c9c9c;
         }
     
-        .header__span {
-            color: $color-naranja;
-    
-        }         
-    }      
-    /*Main*/
+        .mainLeyenda__span {
+            color: $color-naranja;    
+        }    
+    }   
     
     .encabezadoMain {
         display: grid;
