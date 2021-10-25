@@ -1362,7 +1362,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 40px;
     margin: 0 !important;
   }
   .MensajeFooter__texto {
