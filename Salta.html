@@ -17,30 +17,47 @@
         <div class="headerSalta__div container-fluid p-5  bg-dark text-white">                         
             <h1>Hola, bienvenido a <span class="headerSalta__span">Salta</span></h1>            
         </div>
-        <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
-            <div class="barraNavegacion container-fluid">
-              <ul class="navbar-nav">
-                <li class="nav-item">
-                  <a class="nav-link" href="index.html">Home</a>
-                </li>
-               <li class="nav-item">
-                  <a class="nav-link" href="Jujuy.html">Jujuy</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link active" href="Salta.html">Salta</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link " href="Tucuman.html">Tucuman</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link " href="Catamarca.html">Catamarca</a>
+        <!--Navbar bootstrap-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">
+                <img src="img/montana-del-arco-iris.png" alt="" width="50" height="50">
+              </a>            
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="index.html">Home</a>
                   </li>
-                <li class="nav-item ">
-                    <a class="nav-link " href="Contacto.html">Contacto</a>
+                  <li class="nav-item">
+                    <a class="nav-link" href="Jujuy.html">Jujuy</a>
                   </li>
-              </ul>
+                  <li class="nav-item">
+                    <a class="nav-link active" href="Salta.html">Salta</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="Tucuman.html">Tucumán</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="Catamarca.html">Catamarca</a>
+                  </li>  
+                  <li class="nav-item">
+                    <a class="nav-link" href="Contacto.html">Contacto</a>
+                  </li>                 
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li><a class="dropdown-item" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                  </li>                
+                </ul>              
+              </div>
             </div>
-          </nav>
+          </nav>  
+          <!--Fin Navbar bootstrap-->
         </header>
     <main> 
         <div class="encabezadoMainSalta">
@@ -239,31 +256,73 @@
     </main>
     <footer>
         <!-- footer metodologia bem -->
-          <div class="divLogosFooter container-fluid">
-          <p class="divLogosFooter__texto">Contactanos a nuestras redes sociales:</p> 
-          <a class="divLogosFooter__enlace" href="">
-            <div class="divLogosFooter__centrarLogo">                    
-              <img class="divLogosFooter__logo" src="img/whatsapp.png" alt="logoWhatsapp">
-              <p class="divLogosFooter__textoLogo" >+54 116485462</p>
-              </div>
-          </a>          
-          <a class="divLogosFooter__enlace" href="">
-            <div class="divLogosFooter__centrarLogo">
-              <img class="divLogosFooter__logo" src="img/instagram.png" alt="logoInstagram">
-              <p class="divLogosFooter__textoLogo">@Turismo_NorteArgentino</p>
-              </div>
-          </a>
-          <a class="divLogosFooter__enlace" href="">
+        <div class="listasFooter">   
+        <div class="agruparListasFooter">                  
+          <section class="linksUtilesFooter">              
+            <h4 class="linksUtilesFooter__subtitulo">Sitios relacionados</h4>
+            <ul class="linksUtilesFooter__lista">               
+              <li>
+                <a class="linksUtilesFooter__link" href="http://www.argentinaviajera.com.ar/">Argentina Viajera</a>                  
+              </li>
+              <li>
+                <a class="linksUtilesFooter__link" href="https://www.tripadvisor.com.ar/Tourism-g312811-Northern_Argentina-Vacations.html">TripAdvisor</a>                  
+              </li>
+              <li>
+                <a class="linksUtilesFooter__link" href="https://www.argentinaturismo.com.ar/">Argentina Turismo</a>                  
+              </li>
+              <li>
+                <a class="linksUtilesFooter__link" href="https://www.argentina.gob.ar/turismoydeportes">Ministerio de Turismo y Deportes</a> 
+              </li>
+              <li>
+                <a class="linksUtilesFooter__link" href="https://www.argentina.tur.ar/#!/ar/home">Turismo Argentina</a> 
+              </li>
+              </ul>
+            </section>
+          <section class="mapaDelSitioFooter">
+            <h4 class="mapaDelSitioFooter__subtitulo">Mapa del Sitio</h4>
+            <ul class="mapaDelSitioFooter__lista">                
+              <li>
+                <a class="mapaDelSitioFooter__link" href="Jujuy.html">Provincia de Jujuy</a>                
+              </li>
+              <li>
+                <a class="mapaDelSitioFooter__link" href="Salta.html">Provincia de Salta</a> 
+              </li>
+              <li>
+                <a class="mapaDelSitioFooter__link" href="Tucuman.html">Provincia de Tucumán</a>                
+              </li>
+              <li>
+                <a class="mapaDelSitioFooter__link" href="Catamarca.html">Provincia de Catamarca</a> 
+              </li>
+              <li>
+                <a class="mapaDelSitioFooter__link" href="Contacto.html">Contactanos</a> 
+              </li>
+            </ul>
+          </section> 
+        </div>  
+          <section class="MensajeFooter"> 
+            <div class="MensajeFooter__centrar">
+              <p class="MensajeFooter__texto" >No dejes de conocer una de las regiones mas increibles de la República Argentina</p>
+              <img src="img/montana-del-arco-iris.png" alt="" width="70" height="70">
+            </div>               
+          </section>  
+        </div>            
+          <div class="divLogosFooter">             
           <div class="divLogosFooter__centrarLogo">
-          <img class="divLogosFooter__logo" src="img/facebook.png" alt="logoFacebook">
-          <p class="divLogosFooter__textoLogo">Fb: Turismo Norte Argentino</p>
-          </div>
+          <a class="divLogosFooter__enlace" href="">                               
+              <img class="divLogosFooter__logo" src="img/whatsapp.png" alt="logoWhatsapp">                
+          </a>          
+          <a class="divLogosFooter__enlace" href="">             
+              <img class="divLogosFooter__logo" src="img/instagram.png" alt="logoInstagram">                
+          </a>
+          <a class="divLogosFooter__enlace" href="">            
+          <img class="divLogosFooter__logo" src="img/facebook.png" alt="logoFacebook">            
           </a>
           </div>
-          <div>
-          <p class="divLogosFooterSalta__textoInferior">Federico Villarreal.Todos los derechos reservados 2021.</p>  
           </div> 
-      </footer>       
+          <div class="pieDeFooter">
+            <p class="pieDeFooter__texto">Copyright © Todos los derechos reservados -- Federico Villarreal</p>
+          </div>                         
+      </footer>        
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
 </body>
 
