@@ -1249,10 +1249,6 @@
     height: auto;
   }
 
-  .sticky-top {
-    position: sticky;
-  }
-
   .encabezadoMain__barraInferior {
     width: 100%;
     height: 56px;
