@@ -20,8 +20,8 @@
     }
     .encabezadoMainJujuy {
         display: flex;
-        flex-direction: column;        
-        padding: 20px 0 20px 0;
+        flex-direction: column;       
+        
         background-color: $color-encabezadoJujuy;        
     
         .encabezadoMainJujuy__divTexto {
@@ -79,8 +79,7 @@
     }
     .encabezadoMainSalta {
         display: flex;
-        flex-direction: column;        
-        padding: 20px 0 20px 0;        
+        flex-direction: column;             
         background-color: $color-encabezadoSalta;
         
     
@@ -138,8 +137,7 @@
     }
     .encabezadoMainTucuman {
         display: flex;
-        flex-direction: column;
-        padding: 20px 0 20px 0;       
+        flex-direction: column;              
         background-color: $color-encabezadoTucuman;
         
     
@@ -198,8 +196,8 @@
     }
     .encabezadoMainCatamarca {
         display: flex;
-        flex-direction: column;        
-        padding: 20px 0 20px 0;        
+        flex-direction: column;       
+               
         background-color: $color-encabezadoCatamarca;
         
     
@@ -858,17 +856,8 @@
     
     }
     /*JUJUY*/
-    /* Header */
-    .headerJujuy {
-        .headerJujuy__div {
-            border-bottom: 1px solid #9c9c9c;
-        }
-    
-        .headerJujuy__span {
-            color: $color-encabezadoJujuy;
-    
-        }    
-    }
+    /* Header */    
+
     .encabezadoMainJujuy {
         display: grid;
         grid-template-columns: 1fr 1fr;

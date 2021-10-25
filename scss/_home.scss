@@ -5,24 +5,47 @@
         margin: 0;
         padding: 0;
     }
-     
+    /*Header*/
+    .navbar-brand {
+        margin: 0;
+        font-family: dosis;
+    }    
   
     
     /*Main*/
-    .mainLeyenda {
-        .mainLeyenda__div {
-            border-top: 1px solid #9c9c9c;
-        }
-    
-        .mainLeyenda__span {
-            color: $color-naranja;    
-        }    
+    .mainLeyenda {  
+        &__titulo {
+            font-size: 35px;
+        }            
+        &__span {
+            color: $color-naranja;
+            &--jujuy {
+                color:$color-encabezadoJujuy;
+
+            }
+            &--salta {
+                color: $color-encabezadoSalta;
+
+            }
+            &--tucuman {
+                color: $color-encabezadoTucuman;
+
+            }
+            &--catamarca {
+                color: $color-encabezadoCatamarca;
+
+            }
+            &--contacto {
+                color: $color-encabezadoContacto;
+
+            }
+        } 
     }
+   
     
     .encabezadoMain {
         display: flex;
-        flex-direction: column;
-        padding: 50px 0 50px 0;
+        flex-direction: column;        
         background-color: rgb(250, 157, 8);
         margin:0;
         
@@ -261,22 +284,41 @@
     }
     
     /* Header */
- 
+    .navbar-brand {
+        margin: 0;
+        font-family: dosis;
+    }
     
     /*Main*/
-    .mainLeyenda {
-        .mainLeyenda__div {
-            border-top: 1px solid #9c9c9c;
-        }
+    .mainLeyenda {        
+        &__span {
+            color: $color-naranja;
+            &--jujuy {
+                color:$color-encabezadoJujuy;
+
+            }
+            &--salta {
+                color: $color-encabezadoSalta;
+
+            }
+            &--tucuman {
+                color: $color-encabezadoTucuman;
+
+            }
+            &--catamarca {
+                color: $color-encabezadoCatamarca;
+
+            }
+            &--contacto {
+                color: $color-encabezadoContacto;
+
+            }
+        } 
+    }     
     
-        .mainLeyenda__span {
-            color: $color-naranja;    
-        }    
-    }   
     .encabezadoMain {
         display: flex;
-        flex-direction: column;
-        padding: 50px 0 50px 0;
+        flex-direction: column;        
         background-color: rgb(250, 157, 8);
         margin:0;
         
@@ -287,12 +329,14 @@
             align-items: center;
             justify-content: center;
             grid-column: 1/2;
-            margin: 0 30px 0 30px;
+            margin: 0 10px 0 10px;
             color: $color-blanco;
             font-family: dosis; 
+            text-align: justify;
         }
         .encabezadoMain__subtitulo {
             margin: 30px 0 30px 0;
+            font-weight: bold;
         }
         .encabezadoMain__texto {
            
@@ -501,15 +545,44 @@
 
 }
 
-@media only screen and (min-width:1024px) {
+@media only screen and (min-width:992px) {
     * {
         margin: 0;
         padding: 0;
     }
     
-    /* Header */
+    /* Header */  
+    .navbar-brand {
+        margin-right: 20px;
+        font-family: dosis;
+    }  
    
     /*Main*/
+    .mainLeyenda {        
+        &__span {
+            color: $color-naranja;
+            &--jujuy {
+                color:$color-encabezadoJujuy;
+
+            }
+            &--salta {
+                color: $color-encabezadoSalta;
+
+            }
+            &--tucuman {
+                color: $color-encabezadoTucuman;
+
+            }
+            &--catamarca {
+                color: $color-encabezadoCatamarca;
+
+            }
+            &--contacto {
+                color: $color-encabezadoContacto;
+
+            }
+        } 
+    }
     .mainLeyenda {
         .mainLeyenda__div {
             border-top: 1px solid #9c9c9c;

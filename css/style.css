@@ -16,7 +16,6 @@
   .encabezadoMainJujuy, .encabezadoMainContacto {
     display: flex;
     flex-direction: column;
-    padding: 20px 0 20px 0;
     background-color: #dd5207;
   }
   .encabezadoMainJujuy .encabezadoMainJujuy__divTexto, .encabezadoMainContacto .encabezadoMainJujuy__divTexto, .encabezadoMainContacto .encabezadoMainContacto__divTexto {
@@ -71,7 +70,6 @@
   .encabezadoMainSalta {
     display: flex;
     flex-direction: column;
-    padding: 20px 0 20px 0;
     background-color: #3271b6;
   }
   .encabezadoMainSalta .encabezadoMainSalta__divTexto {
@@ -125,7 +123,6 @@
   .encabezadoMainTucuman {
     display: flex;
     flex-direction: column;
-    padding: 20px 0 20px 0;
     background-color: #e7f54e;
   }
   .encabezadoMainTucuman .encabezadoMainTucuman__divTexto {
@@ -179,7 +176,6 @@
   .encabezadoMainCatamarca {
     display: flex;
     flex-direction: column;
-    padding: 20px 0 20px 0;
     background-color: #c70202;
   }
   .encabezadoMainCatamarca .encabezadoMainCatamarca__divTexto {
@@ -800,13 +796,6 @@
 
   /*JUJUY*/
   /* Header */
-  .headerJujuy .headerJujuy__div {
-    border-bottom: 1px solid #9c9c9c;
-  }
-  .headerJujuy .headerJujuy__span {
-    color: #dd5207;
-  }
-
   .encabezadoMainJujuy, .encabezadoMainContacto {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -1205,18 +1194,38 @@
     padding: 0;
   }
 
-  /*Main*/
-  .mainLeyenda .mainLeyenda__div {
-    border-top: 1px solid #9c9c9c;
+  /*Header*/
+  .navbar-brand {
+    margin: 0;
+    font-family: dosis;
   }
-  .mainLeyenda .mainLeyenda__span {
+
+  /*Main*/
+  .mainLeyenda__titulo {
+    font-size: 35px;
+  }
+  .mainLeyenda__span {
     color: #fa9d08;
+  }
+  .mainLeyenda__span--jujuy {
+    color: #dd5207;
+  }
+  .mainLeyenda__span--salta {
+    color: #3271b6;
+  }
+  .mainLeyenda__span--tucuman {
+    color: #e7f54e;
+  }
+  .mainLeyenda__span--catamarca {
+    color: #c70202;
+  }
+  .mainLeyenda__span--contacto {
+    color: #f8d746;
   }
 
   .encabezadoMain {
     display: flex;
     flex-direction: column;
-    padding: 50px 0 50px 0;
     background-color: #fa9d08;
     margin: 0;
   }
@@ -1432,18 +1441,34 @@
   }
 
   /* Header */
-  /*Main*/
-  .mainLeyenda .mainLeyenda__div {
-    border-top: 1px solid #9c9c9c;
+  .navbar-brand {
+    margin: 0;
+    font-family: dosis;
   }
-  .mainLeyenda .mainLeyenda__span {
+
+  /*Main*/
+  .mainLeyenda__span {
     color: #fa9d08;
+  }
+  .mainLeyenda__span--jujuy {
+    color: #dd5207;
+  }
+  .mainLeyenda__span--salta {
+    color: #3271b6;
+  }
+  .mainLeyenda__span--tucuman {
+    color: #e7f54e;
+  }
+  .mainLeyenda__span--catamarca {
+    color: #c70202;
+  }
+  .mainLeyenda__span--contacto {
+    color: #f8d746;
   }
 
   .encabezadoMain {
     display: flex;
     flex-direction: column;
-    padding: 50px 0 50px 0;
     background-color: #fa9d08;
     margin: 0;
   }
@@ -1453,12 +1478,14 @@
     align-items: center;
     justify-content: center;
     grid-column: 1/2;
-    margin: 0 30px 0 30px;
+    margin: 0 10px 0 10px;
     color: white;
     font-family: dosis;
+    text-align: justify;
   }
   .encabezadoMain .encabezadoMain__subtitulo {
     margin: 30px 0 30px 0;
+    font-weight: bold;
   }
   .encabezadoMain .encabezadoMain__texto {
     margin: 0 30px 0 30px;
@@ -1638,14 +1665,38 @@
     margin: 0 !important;
   }
 }
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 992px) {
   * {
     margin: 0;
     padding: 0;
   }
 
   /* Header */
+  .navbar-brand {
+    margin-right: 20px;
+    font-family: dosis;
+  }
+
   /*Main*/
+  .mainLeyenda__span {
+    color: #fa9d08;
+  }
+  .mainLeyenda__span--jujuy {
+    color: #dd5207;
+  }
+  .mainLeyenda__span--salta {
+    color: #3271b6;
+  }
+  .mainLeyenda__span--tucuman {
+    color: #e7f54e;
+  }
+  .mainLeyenda__span--catamarca {
+    color: #c70202;
+  }
+  .mainLeyenda__span--contacto {
+    color: #f8d746;
+  }
+
   .mainLeyenda .mainLeyenda__div {
     border-top: 1px solid #9c9c9c;
   }
@@ -1873,19 +1924,14 @@
 }
 .encabezadoMainContacto .encabezadoMainContacto__subtitulo {
   margin: 30px 0 30px 0;
+  font-weight: bold;
 }
 .encabezadoMainContacto .encabezadoMainContacto__img {
-  border: 5px solid #f8d746;
+  border: 5px solid rgba(146, 146, 8, 0.555);
 }
 
-.divLogosFooterContacto__textoInferior {
-  font-size: 15px;
-  color: #f8d746;
-  background-color: #212529;
-  font-family: dosis;
-  text-align: center;
-  padding: 15px 0 15px 0;
-  margin: 0 !important;
+.form {
+  margin: 50px 0 50px 0;
 }
 
 /*# sourceMappingURL=style.css.map */

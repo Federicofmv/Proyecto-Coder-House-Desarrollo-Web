@@ -12,53 +12,59 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <header class="headerJujuy">
-        <div class="headerJujuy__div container-fluid p-5  bg-dark text-white">                         
-            <h1>Hola, bienvenido a <span class="headerJujuy__span">Jujuy</span></h1>            
+  <header class="header sticky-top">      
+    <!--Navbar bootstrap-->  
+    <section> 
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand m-e-0" href="index.html">
+          Turismo Noa
+        </a>
+        <a class="navbar-brand" href="index.html">
+          <img src="img/montana-del-arco-iris.png" alt="" width="50" height="50">
+        </a>            
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link " aria-current="page" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="Jujuy.html">Jujuy</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Salta.html">Salta</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Tucuman.html">Tucumán</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Catamarca.html">Catamarca</a>
+            </li> 
+            <li class="nav-item">
+              <a class="nav-link" href="Contacto.html">Contacto</a>
+            </li>                  
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>                
+          </ul>              
         </div>
-          <!--Navbar bootstrap-->
-          <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <div class="container-fluid">
-              <a class="navbar-brand" href="#">
-                <img src="img/montana-del-arco-iris.png" alt="" width="50" height="50">
-              </a>            
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="index.html">Home</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link active" href="Jujuy.html">Jujuy</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="Salta.html">Salta</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="Tucuman.html">Tucumán</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="Catamarca.html">Catamarca</a>
-                  </li>  
-                  <li class="nav-item">
-                    <a class="nav-link" href="Contacto.html">Contacto</a>
-                  </li>                 
-                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                      <li><a class="dropdown-item" href="#">Action</a></li>
-                      <li><a class="dropdown-item" href="#">Another action</a></li>
-                      <li><hr class="dropdown-divider"></li>
-                      <li><a class="dropdown-item" href="#">Something else here</a></li>
-                    </ul>
-                  </li>                
-                </ul>              
-              </div>
-            </div>
-          </nav>  
-          <!--Fin Navbar bootstrap-->
-        </header>
-    <main> 
+      </div>
+    </nav>            
+    <!--Fin Navbar bootstrap-->    
+    </header>
+    <main>
+      <div class="mainLeyenda">
+        <div class="mainLeyenda__div container-fluid p-5  bg-dark text-white">                         
+          <h1 class="mainLeyenda__titulo">Hola, bienvenido a <span class="mainLeyenda__span--jujuy">Jujuy</span></h1>            
+        </div>
+        </div> 
         <div class="encabezadoMainJujuy">
             <div class="encabezadoMainJujuy__divTexto">
             <h2 class="encabezadoMainJujuy__subtitulo" >Jujuy</h2>  

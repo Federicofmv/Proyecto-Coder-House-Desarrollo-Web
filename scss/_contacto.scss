@@ -23,6 +23,7 @@
     }
     .encabezadoMainContacto__subtitulo {
         margin: 30px 0 30px 0;
+        font-weight: bold
     }
     .encabezadoMainContacto__texto {
         @extend .encabezadoMainJujuy__texto;
@@ -33,16 +34,11 @@
     }
     .encabezadoMainContacto__img {
         @extend .encabezadoMainJujuy__img;
-        border: 5px solid $color-encabezadoContacto;      
+        border: 5px solid rgba(146, 146, 8, 0.555);      
     }
    
 }
-.divLogosFooterContacto__textoInferior {
-    font-size: 15px;    
-    color:$color-encabezadoContacto;
-    background-color: $color-oscuro;    
-    font-family: dosis;
-    text-align: center;
-    padding: 15px 0 15px 0;
-    margin: 0 !important;
+.form {
+    margin: 50px 0 50px 0;
 }
+
