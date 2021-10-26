@@ -1443,14 +1443,13 @@
     bottom: 0px;
     right: 0px;
     padding: 15px;
-    color: #bebebe;
-    opacity: 0.3;
-    transition: 0.4s;
+    color: black;
+    opacity: 0.5;
   }
 
-  #Subir:hover {
-    color: #bebebe;
-    opacity: 1;
+  .Subir__imagen {
+    height: 45px;
+    width: 45px;
   }
 }
 @media only screen and (min-width: 576px) {
@@ -1693,14 +1692,13 @@
     bottom: 0px;
     right: 0px;
     padding: 15px;
-    color: #bebebe;
+    color: black;
     opacity: 0.5;
-    transition: 0.4s;
   }
 
-  #Subir:hover {
-    color: #bebebe;
-    opacity: 1;
+  .Subir__imagen {
+    height: 45px;
+    width: 45px;
   }
 }
 @media only screen and (min-width: 992px) {
@@ -1954,14 +1952,13 @@
     bottom: 0px;
     right: 0px;
     padding: 15px;
-    color: #bebebe;
+    color: black;
     opacity: 0.5;
-    transition: 0.4s;
   }
 
-  #Subir:hover {
-    color: #bebebe;
-    opacity: 1;
+  .Subir__imagen {
+    height: 45px;
+    width: 45px;
   }
 }
 /*Contacto*/

@@ -278,19 +278,19 @@
     
         }
     } 
-    #Subir{
+    #Subir{        
         position: fixed;
         bottom: 0px;
         right: 0px;
         padding: 15px;
-        color: $color-gris;
-        opacity: 0.3;
-        transition: 0.4s;
+        color: black;
+        opacity: 0.5;   
     }    
-    #Subir:hover{
-        color: $color-gris;
-        opacity: 1;
-    }     
+    .Subir__imagen {
+        height: 45px;
+        width: 45px;               
+    }  
+
     
     
 }
@@ -564,14 +564,13 @@
         bottom: 0px;
         right: 0px;
         padding: 15px;
-        color: $color-gris;
-        opacity: 0.5;
-        transition: 0.4s;
+        color: black;
+        opacity: 0.5;       
     }    
-    #Subir:hover{
-        color: $color-gris;
-        opacity: 1;
-    }   
+    .Subir__imagen {
+        height: 45px;
+        width: 45px;               
+    }  
     
     
     
@@ -856,12 +855,11 @@
         bottom: 0px;
         right: 0px;
         padding: 15px;
-        color: $color-gris;
-        opacity: 0.5;
-        transition: 0.4s;
+        color: black;
+        opacity: 0.5;       
     }    
-    #Subir:hover{
-        color: $color-gris;
-        opacity: 1;
-    }
+    .Subir__imagen {
+        height: 45px;
+        width: 45px;               
+    }  
 }
