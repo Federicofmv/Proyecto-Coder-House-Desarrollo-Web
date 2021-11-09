@@ -262,7 +262,7 @@
         display: flex;
         flex-direction: column;
         align-items: center;        
-        background-color: $color-oscuro;
+        background-color: $color-grisClaro;
         border-radius: 10px;
         width: 97%;       
         
@@ -307,13 +307,13 @@
         &__texto {
             margin: 30px 10px 30px 10px;
             text-align: justify;
-            color: $color-blanco;  
+            color: $color-oscuro;  
             font-family: dosis; 
 
         }
         &__imagen {
-            width: 80%;
-            height:80%;
+            width: 95%;
+                height: 250px;
             &--alojamiento {
                 width: 95%;
                 height: 250px;
@@ -688,7 +688,7 @@
         display: flex;
         flex-direction: column;
         align-items: center;        
-        background-color: $color-oscuro;
+        background-color: $color-grisClaro;
         border-radius: 10px;
         width: 90%;
      
@@ -700,6 +700,7 @@
             border-radius: 10px;
             margin: 10px 0 10px 0;
             font-family: dosis; 
+            font-size: 20px;
             &--salta {
                 color: $color-blanco;
                 background-color: $color-encabezadoJujuy;
@@ -734,14 +735,14 @@
         &__texto {
             margin: 30px 30px 30px 30px;
             text-align: justify;
-            color: $color-blanco;  
+            color: $color-oscuro;  
             font-family: dosis;  
     
     
         }
         &__imagen {
-            width: 70%;
-            height:350px;
+            height: 400px;
+             width: 90%;
             &--alojamiento {
                 height: 400px;
                 width: 90%;

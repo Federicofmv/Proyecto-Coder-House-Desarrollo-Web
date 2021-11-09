@@ -237,7 +237,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #212529;
+    background-color: #f0f0f0;
     border-radius: 10px;
     width: 97%;
   }
@@ -280,12 +280,12 @@
   .article__texto {
     margin: 30px 10px 30px 10px;
     text-align: justify;
-    color: white;
+    color: #212529;
     font-family: dosis;
   }
   .article__imagen {
-    width: 80%;
-    height: 80%;
+    width: 95%;
+    height: 250px;
   }
   .article__imagen--alojamiento {
     width: 95%;
@@ -635,7 +635,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #212529;
+    background-color: #f0f0f0;
     border-radius: 10px;
     width: 90%;
   }
@@ -646,6 +646,7 @@
     border-radius: 10px;
     margin: 10px 0 10px 0;
     font-family: dosis;
+    font-size: 20px;
   }
   .article__subtitulo--salta {
     color: white;
@@ -678,12 +679,12 @@
   .article__texto {
     margin: 30px 30px 30px 30px;
     text-align: justify;
-    color: white;
+    color: #212529;
     font-family: dosis;
   }
   .article__imagen {
-    width: 70%;
-    height: 350px;
+    height: 400px;
+    width: 90%;
   }
   .article__imagen--alojamiento {
     height: 400px;
