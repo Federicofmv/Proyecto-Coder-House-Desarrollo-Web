@@ -15,7 +15,7 @@
 
   .listaEncabezado {
     position: sticky;
-    top: 60px;
+    top: 75px;
     z-index: 2;
   }
   .listaEncabezado__lista {
@@ -64,7 +64,7 @@
     transition: 0.8s;
   }
   .listaEncabezado__enlace:hover {
-    color: #F95738;
+    color: #EE964B;
   }
   .listaEncabezado__enlace--salta:hover {
     color: #4085cf;
@@ -520,7 +520,7 @@
 
   .listaEncabezado {
     position: sticky;
-    top: 70px;
+    top: 75px;
     z-index: 2;
   }
   .listaEncabezado__lista {
@@ -1021,7 +1021,7 @@
 
   .listaEncabezado {
     position: sticky;
-    top: 70px;
+    top: 75px;
     z-index: 2;
   }
   .listaEncabezado__lista {

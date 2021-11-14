@@ -21,7 +21,7 @@
     }
     .listaEncabezado {
         position: sticky;
-        top:60px;
+        top:75px;
         z-index: 2;
         &__lista {
             display: flex;
@@ -76,7 +76,7 @@
 
         }
         &__enlace:hover {
-            color:$color-encabezadoHome;
+            color:$color-encabezadoJujuy;
                      
             
         }
@@ -573,7 +573,7 @@
     }
     .listaEncabezado {
         position: sticky;
-        top:70px;
+        top:75px;
         z-index: 2;
         &__lista {
             display: flex;
@@ -1109,7 +1109,7 @@
     }
     .listaEncabezado {
         position: sticky;
-        top:70px;
+        top:75px;
         z-index: 2;
         &__lista {
             display: flex;
