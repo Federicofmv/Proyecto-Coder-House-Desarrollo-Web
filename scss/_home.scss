@@ -13,13 +13,16 @@
     .navbar-brand {
         margin: 0;
         font-family: dosis;
-    }    
+    } 
+    .nav-item {
+        font-size: 18px;
+    }   
   
     
     /*Main*/
     .mainLeyenda {       
         &__titulo {
-            font-size: 22px;
+            font-size: 25px;
             text-align: center;
 
         }            
@@ -358,6 +361,9 @@
         margin: 0;
         font-family: dosis;
     }
+    .nav-item {
+        font-size: 18px;
+    }
     
     /*Main*/
     .mainLeyenda {        
@@ -690,6 +696,9 @@
         margin-right: 20px;
         font-family: dosis;
     }  
+    .nav-item {
+        font-size: 18px;
+    }
    
     /*Main*/
     .mainLeyenda {        
