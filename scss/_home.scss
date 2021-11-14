@@ -50,7 +50,7 @@
     .encabezadoMain {
         display: flex;
         flex-direction: column;        
-        background-color: rgb(250, 157, 8);
+        background-color: $color-encabezadoHome;
         margin:0;
         box-shadow: -2px 5px 14px 5px rgba(0,0,0,0.29);
 -webkit-box-shadow: -2px 5px 14px 5px rgba(0,0,0,0.29);
@@ -387,7 +387,7 @@
     .encabezadoMain {
         display: flex;
         flex-direction: column;        
-        background-color: rgb(250, 157, 8);
+        background-color: $color-encabezadoHome;
         margin:0;
         box-shadow: -2px 5px 14px 5px rgba(0,0,0,0.29);
 -webkit-box-shadow: -2px 5px 14px 5px rgba(0,0,0,0.29);

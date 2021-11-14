@@ -1383,13 +1383,13 @@
     color: #7DBBC3;
   }
   .mainLeyenda__span--contacto {
-    color: #ffd416;
+    color: #dd0404;
   }
 
   .encabezadoMain {
     display: flex;
     flex-direction: column;
-    background-color: #fa9d08;
+    background-color: #F95738;
     margin: 0;
     box-shadow: -2px 5px 14px 5px rgba(0, 0, 0, 0.29);
     -webkit-box-shadow: -2px 5px 14px 5px rgba(0, 0, 0, 0.29);
@@ -1687,13 +1687,13 @@
     color: #7DBBC3;
   }
   .mainLeyenda__span--contacto {
-    color: #ffd416;
+    color: #dd0404;
   }
 
   .encabezadoMain {
     display: flex;
     flex-direction: column;
-    background-color: #fa9d08;
+    background-color: #F95738;
     margin: 0;
     box-shadow: -2px 5px 14px 5px rgba(0, 0, 0, 0.29);
     -webkit-box-shadow: -2px 5px 14px 5px rgba(0, 0, 0, 0.29);
@@ -1981,7 +1981,7 @@
     color: #7DBBC3;
   }
   .mainLeyenda__span--contacto {
-    color: #ffd416;
+    color: #dd0404;
   }
 
   .mainLeyenda .mainLeyenda__div {
@@ -2259,11 +2259,11 @@
   border-bottom: 1px solid #9c9c9c;
 }
 .headerContacto .headerContacto__span {
-  color: #ffd416;
+  color: #dd0404;
 }
 
 .encabezadoMainContacto {
-  background-color: #ffd416;
+  background-color: #dd0404;
 }
 .encabezadoMainContacto .encabezadoMainContacto__divTexto {
   color: #212529;
