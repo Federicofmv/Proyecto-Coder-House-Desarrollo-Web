@@ -2543,4 +2543,21 @@
   margin: 50px 0 50px 0;
 }
 
+.body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.body__titulo {
+  font-family: dosis;
+  font-size: 40px;
+}
+.body__texto {
+  font-family: dosis;
+  font-size: 30px;
+}
+.body__enlace {
+  text-decoration: none;
+}
+
 /*# sourceMappingURL=style.css.map */
