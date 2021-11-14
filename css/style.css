@@ -13,6 +13,69 @@
     color: #EE964B;
   }
 
+  .listaEncabezado {
+    position: sticky;
+    top: 70px;
+    z-index: 2;
+  }
+  .listaEncabezado__lista {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    margin: 0;
+    padding: 10px 0 10px 0;
+    background-color: #1c1f22;
+  }
+  .listaEncabezado__item {
+    font-family: dosis;
+  }
+  .listaEncabezado__enlace {
+    text-decoration: none;
+    font-size: 17px;
+    color: white;
+    margin: 0 30px 0 30px;
+    padding: 12px 10px 12px 10px;
+    transition: 0.8s;
+  }
+  .listaEncabezado__enlace--salta {
+    text-decoration: none;
+    font-size: 17px;
+    color: white;
+    margin: 0 30px 0 30px;
+    padding: 12px 10px 12px 10px;
+    transition: 0.8s;
+  }
+  .listaEncabezado__enlace--tucuman {
+    text-decoration: none;
+    font-size: 17px;
+    color: white;
+    margin: 0 30px 0 30px;
+    padding: 12px 10px 12px 10px;
+    transition: 0.8s;
+  }
+  .listaEncabezado__enlace--catamarca {
+    text-decoration: none;
+    font-size: 17px;
+    color: white;
+    margin: 0 30px 0 30px;
+    padding: 12px 10px 12px 10px;
+    transition: 0.8s;
+  }
+  .listaEncabezado__enlace:hover {
+    color: #F95738;
+  }
+  .listaEncabezado__enlace--salta:hover {
+    color: #4085cf;
+  }
+  .listaEncabezado__enlace--tucuman:hover {
+    color: #F4D35E;
+  }
+  .listaEncabezado__enlace--catamarca:hover {
+    color: #7DBBC3;
+  }
+
   .encabezadoMainJujuy, .encabezadoMainContacto {
     display: flex;
     flex-direction: column;
@@ -454,6 +517,75 @@
     color: #EE964B;
   }
 
+  .listaEncabezado {
+    position: sticky;
+    top: 70px;
+    z-index: 2;
+  }
+  .listaEncabezado__lista {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 10px 0 10px 0;
+    background-color: #1c1f22;
+  }
+  .listaEncabezado__item {
+    font-family: dosis;
+  }
+  .listaEncabezado__enlace {
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    margin: 0 30px 0 30px;
+    padding: 12px 10px 12px 10px;
+    transition: 0.8s;
+  }
+  .listaEncabezado__enlace--salta {
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    margin: 0 30px 0 30px;
+    padding: 12px 10px 12px 10px;
+    transition: 0.8s;
+  }
+  .listaEncabezado__enlace--tucuman {
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    margin: 0 30px 0 30px;
+    padding: 12px 10px 12px 10px;
+    transition: 0.8s;
+  }
+  .listaEncabezado__enlace--catamarca {
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    margin: 0 30px 0 30px;
+    padding: 12px 10px 12px 10px;
+    transition: 0.8s;
+  }
+  .listaEncabezado__enlace:hover {
+    color: #212529;
+    background-color: #EE964B;
+    padding: 12px 10px 12px 10px;
+  }
+  .listaEncabezado__enlace--salta:hover {
+    color: #212529;
+    background-color: #4085cf;
+    padding: 12px 10px 12px 10px;
+  }
+  .listaEncabezado__enlace--tucuman:hover {
+    color: #212529;
+    background-color: #F4D35E;
+    padding: 12px 10px 12px 10px;
+  }
+  .listaEncabezado__enlace--catamarca:hover {
+    color: #212529;
+    background-color: #7DBBC3;
+    padding: 12px 10px 12px 10px;
+  }
+
   .encabezadoMainJujuy, .encabezadoMainContacto {
     display: flex;
     flex-direction: column;
@@ -883,6 +1015,75 @@
   * {
     padding: 0;
     margin: 0;
+  }
+
+  .listaEncabezado {
+    position: sticky;
+    top: 70px;
+    z-index: 2;
+  }
+  .listaEncabezado__lista {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 10px 0 10px 0;
+    background-color: #1c1f22;
+  }
+  .listaEncabezado__item {
+    font-family: dosis;
+  }
+  .listaEncabezado__enlace {
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    margin: 0 30px 0 30px;
+    padding: 12px 10px 12px 10px;
+    transition: 0.8s;
+  }
+  .listaEncabezado__enlace--salta {
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    margin: 0 30px 0 30px;
+    padding: 12px 10px 12px 10px;
+    transition: 0.8s;
+  }
+  .listaEncabezado__enlace--tucuman {
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    margin: 0 30px 0 30px;
+    padding: 12px 10px 12px 10px;
+    transition: 0.8s;
+  }
+  .listaEncabezado__enlace--catamarca {
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    margin: 0 30px 0 30px;
+    padding: 12px 10px 12px 10px;
+    transition: 0.8s;
+  }
+  .listaEncabezado__enlace:hover {
+    color: #212529;
+    background-color: #EE964B;
+    padding: 12px 10px 12px 10px;
+  }
+  .listaEncabezado__enlace--salta:hover {
+    color: #212529;
+    background-color: #4085cf;
+    padding: 12px 10px 12px 10px;
+  }
+  .listaEncabezado__enlace--tucuman:hover {
+    color: #212529;
+    background-color: #F4D35E;
+    padding: 12px 10px 12px 10px;
+  }
+  .listaEncabezado__enlace--catamarca:hover {
+    color: #212529;
+    background-color: #7DBBC3;
+    padding: 12px 10px 12px 10px;
   }
 
   /*JUJUY*/
@@ -1363,6 +1564,12 @@
     font-size: 18px;
   }
 
+  .listaEncabezado {
+    list-style: none;
+  }
+  .listaEncabezado__lista {
+    list-style: none;
+  }
   /*Main*/
   .mainLeyenda__titulo {
     font-size: 25px;

@@ -19,6 +19,81 @@
     
         }    
     }
+    .listaEncabezado {
+        position: sticky;
+        top:70px;
+        z-index: 2;
+        &__lista {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            list-style: none;
+            margin: 0;
+            padding: 10px 0 10px 0;
+            background-color: $color-oscuroSecundario;
+
+
+        }
+        &__item {
+            font-family: dosis;        
+          
+
+        }       
+        &__enlace {
+            text-decoration: none;
+            font-size: 17px;
+            color: $color-blanco;
+            margin: 0 30px 0 30px;
+            padding: 12px 10px 12px 10px;
+            transition: 0.8s;
+            &--salta {
+            text-decoration: none;
+            font-size: 17px;
+            color: $color-blanco;
+            margin: 0 30px 0 30px;
+            padding: 12px 10px 12px 10px;
+            transition: 0.8s;
+            }  
+            &--tucuman {
+                text-decoration: none;
+                font-size: 17px;
+                color: $color-blanco;
+                margin: 0 30px 0 30px;
+                padding: 12px 10px 12px 10px;
+                transition: 0.8s;
+
+            }   
+            &--catamarca {
+                text-decoration: none;
+                font-size: 17px;
+                color: $color-blanco;
+                margin: 0 30px 0 30px;
+                padding: 12px 10px 12px 10px;
+                transition: 0.8s;
+
+            }
+
+        }
+        &__enlace:hover {
+            color:$color-encabezadoHome;
+                     
+            
+        }
+        &__enlace--salta:hover {
+            color:$color-encabezadoSalta;
+            
+        }
+        &__enlace--tucuman:hover {
+            color:$color-encabezadoTucuman;
+            
+        }
+        &__enlace--catamarca:hover {
+            color:$color-encabezadoCatamarca;                  
+           
+
+        }
+    }
     .encabezadoMainJujuy {
         display: flex;
         flex-direction: column;      
@@ -495,6 +570,84 @@
     
         }    
     }
+    .listaEncabezado {
+        position: sticky;
+        top:70px;
+        z-index: 2;
+        &__lista {
+            display: flex;
+            justify-content: center;
+            list-style: none;
+            margin: 0;
+            padding: 10px 0 10px 0;
+            background-color: $color-oscuroSecundario;
+
+
+        }
+        &__item {
+            font-family: dosis;        
+          
+
+        }       
+        &__enlace {
+            text-decoration: none;
+            font-size: 18px;
+            color: $color-blanco;
+            margin: 0 30px 0 30px;
+            padding: 12px 10px 12px 10px;
+            transition: 0.8s;
+            &--salta {
+            text-decoration: none;
+            font-size: 18px;
+            color: $color-blanco;
+            margin: 0 30px 0 30px;
+            padding: 12px 10px 12px 10px;
+            transition: 0.8s;
+            }  
+            &--tucuman {
+                text-decoration: none;
+                font-size: 18px;
+                color: $color-blanco;
+                margin: 0 30px 0 30px;
+                padding: 12px 10px 12px 10px;
+                transition: 0.8s;
+
+            }   
+            &--catamarca {
+                text-decoration: none;
+                font-size: 18px;
+                color: $color-blanco;
+                margin: 0 30px 0 30px;
+                padding: 12px 10px 12px 10px;
+                transition: 0.8s;
+
+            }
+
+        }
+        &__enlace:hover {
+            color:$color-oscuro;
+            background-color: $color-encabezadoJujuy;            
+            padding: 12px 10px 12px 10px;            
+            
+        }
+        &__enlace--salta:hover {
+            color:$color-oscuro;
+            background-color: $color-encabezadoSalta;            
+            padding: 12px 10px 12px 10px;  
+        }
+        &__enlace--tucuman:hover {
+            color:$color-oscuro;
+            background-color: $color-encabezadoTucuman;            
+            padding: 12px 10px 12px 10px;  
+
+        }
+        &__enlace--catamarca:hover {
+            color:$color-oscuro;
+            background-color: $color-encabezadoCatamarca;            
+            padding: 12px 10px 12px 10px;  
+
+        }
+    }
     .encabezadoMainJujuy {
         display: flex;
         flex-direction: column;        
@@ -951,6 +1104,85 @@
         padding: 0;
         margin:0;
     
+    }
+    .listaEncabezado {
+        position: sticky;
+        top:70px;
+        z-index: 2;
+        &__lista {
+            display: flex;
+            justify-content: center;
+            list-style: none;
+            margin: 0;
+            padding: 10px 0 10px 0;
+            background-color: $color-oscuroSecundario;
+
+
+        }
+        &__item {
+            font-family: dosis;        
+          
+
+        }       
+        &__enlace {
+            text-decoration: none;
+            font-size: 18px;
+            color: $color-blanco;
+            margin: 0 30px 0 30px;
+            padding: 12px 10px 12px 10px;
+            transition: 0.8s;
+            &--salta {
+            text-decoration: none;
+            font-size: 18px;
+            color: $color-blanco;
+            margin: 0 30px 0 30px;
+            padding: 12px 10px 12px 10px;
+            transition: 0.8s;
+            }  
+            &--tucuman {
+                text-decoration: none;
+                font-size: 18px;
+                color: $color-blanco;
+                margin: 0 30px 0 30px;
+                padding: 12px 10px 12px 10px;
+                transition: 0.8s;
+
+            }   
+            &--catamarca {
+                text-decoration: none;
+                font-size: 18px;
+                color: $color-blanco;
+                margin: 0 30px 0 30px;
+                padding: 12px 10px 12px 10px;
+                transition: 0.8s;
+
+            }
+
+        }
+        &__enlace:hover {
+            color:$color-oscuro;
+            background-color: $color-encabezadoJujuy;            
+            padding: 12px 10px 12px 10px;            
+            
+        }
+        &__enlace--salta:hover {
+            color:$color-oscuro;
+            background-color: $color-encabezadoSalta;            
+            padding: 12px 10px 12px 10px;  
+        }
+        &__enlace--tucuman:hover {
+            color:$color-oscuro;
+            background-color: $color-encabezadoTucuman;            
+            padding: 12px 10px 12px 10px;  
+
+        }
+        &__enlace--catamarca:hover {
+            color:$color-oscuro;
+            background-color: $color-encabezadoCatamarca;            
+            padding: 12px 10px 12px 10px;  
+
+        }
+
     }
     /*JUJUY*/
     /* Header */    
