@@ -1564,12 +1564,6 @@
     font-size: 18px;
   }
 
-  .listaEncabezado {
-    list-style: none;
-  }
-  .listaEncabezado__lista {
-    list-style: none;
-  }
   /*Main*/
   .mainLeyenda__titulo {
     font-size: 25px;
