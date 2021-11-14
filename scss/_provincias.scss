@@ -406,12 +406,13 @@
         font-family: dosis;    
         background-color: $color-encabezadoJujuy;       
         border:none;
+        margin: 0 !important;
         color:$color-blanco;
         padding: 30px 0 30px 0;
         &--salta {
             text-align: center;
-            margin: 30px 0 30px 0;
-            font-size: 40px;
+           
+            font-size: 30px;
             border: 1px solid $color-gris;
             font-family: dosis;    
             background-color: $color-encabezadoJujuy;
@@ -423,8 +424,8 @@
         }
         &--tucuman {
             text-align: center;
-        margin: 30px 0 30px 0;
-        font-size: 40px;
+        
+        font-size: 30px;
         border: 1px solid $color-gris;
         font-family: dosis;    
         background-color: $color-encabezadoJujuy;
@@ -438,8 +439,8 @@
         }
         &--catamarca {
             text-align: center;
-        margin: 30px 0 30px 0;
-        font-size: 40px;
+        
+        font-size: 30px;
         border: 1px solid $color-gris;
         font-family: dosis;    
         background-color: $color-encabezadoJujuy;

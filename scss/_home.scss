@@ -17,9 +17,11 @@
   
     
     /*Main*/
-    .mainLeyenda {  
+    .mainLeyenda {       
         &__titulo {
-            font-size: 35px;
+            font-size: 22px;
+            text-align: center;
+
         }            
         &__span {
             color: $color-naranja;

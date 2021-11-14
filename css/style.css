@@ -373,13 +373,13 @@
     font-family: dosis;
     background-color: #EE964B;
     border: none;
+    margin: 0 !important;
     color: white;
     padding: 30px 0 30px 0;
   }
   .alojamientos__titulo--salta {
     text-align: center;
-    margin: 30px 0 30px 0;
-    font-size: 40px;
+    font-size: 30px;
     border: 1px solid #bebebe;
     font-family: dosis;
     background-color: #EE964B;
@@ -391,8 +391,7 @@
   }
   .alojamientos__titulo--tucuman {
     text-align: center;
-    margin: 30px 0 30px 0;
-    font-size: 40px;
+    font-size: 30px;
     border: 1px solid #bebebe;
     font-family: dosis;
     background-color: #EE964B;
@@ -405,8 +404,7 @@
   }
   .alojamientos__titulo--catamarca {
     text-align: center;
-    margin: 30px 0 30px 0;
-    font-size: 40px;
+    font-size: 30px;
     border: 1px solid #bebebe;
     font-family: dosis;
     background-color: #EE964B;
@@ -1363,7 +1361,8 @@
 
   /*Main*/
   .mainLeyenda__titulo {
-    font-size: 35px;
+    font-size: 22px;
+    text-align: center;
   }
   .mainLeyenda__span {
     color: #F95738;
