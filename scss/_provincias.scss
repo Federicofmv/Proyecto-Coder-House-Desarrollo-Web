@@ -15,14 +15,16 @@
     
         .headerJujuy__span {
             color: $color-encabezadoJujuy;
+            
     
         }    
     }
     .encabezadoMainJujuy {
         display: flex;
-        flex-direction: column;       
+        flex-direction: column;      
         
-        background-color: $color-encabezadoJujuy;        
+        background-color: $color-encabezadoJujuy; 
+        padding-bottom: 20px;       
     
         .encabezadoMainJujuy__divTexto {
             text-align: justify;
@@ -84,6 +86,7 @@
         display: flex;
         flex-direction: column;             
         background-color: $color-encabezadoSalta;
+        padding-bottom: 20px;  
         
     
         .encabezadoMainSalta__divTexto {
@@ -145,6 +148,7 @@
         display: flex;
         flex-direction: column;              
         background-color: $color-encabezadoTucuman;
+        padding-bottom: 20px;  
         
     
         .encabezadoMainTucuman__divTexto {
@@ -206,7 +210,7 @@
     .encabezadoMainCatamarca {
         display: flex;
         flex-direction: column;       
-               
+        padding-bottom: 20px;         
         background-color: $color-encabezadoCatamarca;
         
     
@@ -265,7 +269,8 @@
         margin-bottom: 40px; 
         height: 100px;
         background-color: $color-oscuro;
-        color: $color-blanco;      
+        color: $color-blanco;  
+            
         
     
     }
@@ -344,6 +349,12 @@
             font-family: dosis;
             font-size: 20px;
             letter-spacing:.5px;
+            transition: .5s;
+        }
+        &__boton:hover {
+            opacity: 0.8;
+            transform: scale(1.05);
+            
         }
         &__texto {
             margin: 30px 10px 30px 10px;
@@ -508,6 +519,8 @@
         .encabezadoMainJujuy__texto {
             grid-column: 1/2;
             margin: 0 30px 0 30px;
+            width: 100%;
+            font-size: 17px;
         }
         .encabezadoMainJujuy__divImg {            
             display: flex;
@@ -516,7 +529,7 @@
     
         }
         .encabezadoMainJujuy__img {
-            width: 60%;
+            width: 70%;
             height: auto;
             border-radius: 5px;    
             box-shadow: 10px 11px 16px -2px rgba(0,0,0,0.37);
@@ -808,7 +821,12 @@
             font-family: dosis;
             font-size: 20px;
             letter-spacing:.5px;
+            transition: 0.5s;
         }        
+        &__boton:hover {
+            opacity: 0.8;
+            transform: scale(1.05);            
+        }
         &__texto {
             margin: 30px 30px 30px 30px;
             text-align: justify;
@@ -1192,7 +1210,7 @@
         text-align: center;        
         font-size: 40px;        
         font-family: dosis;
-        margin-bottom: 40px; 
+        margin-bottom: 40px;             
         height: 100px;
         background-color: $color-oscuro;
         color: $color-blanco;      
@@ -1277,10 +1295,13 @@
             font-family: dosis;
             font-size: 20px;
             letter-spacing:.5px;
-            
-            
-
-        }
+            transition: 0.5s;
+            }
+         &__boton:hover {
+                opacity: 0.8;
+                transform: scale(1.05);
+                
+            }
         &__texto {
             margin: 30px 30px 30px 30px;
             text-align: justify;
