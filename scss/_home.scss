@@ -52,6 +52,9 @@
         flex-direction: column;        
         background-color: rgb(250, 157, 8);
         margin:0;
+        box-shadow: -2px 5px 14px 5px rgba(0,0,0,0.29);
+-webkit-box-shadow: -2px 5px 14px 5px rgba(0,0,0,0.29);
+-moz-box-shadow: -2px 5px 14px 5px rgba(0,0,0,0.29);
         
     
         .encabezadoMain__divTexto {
@@ -86,14 +89,7 @@
         }
        
     }    
-    .encabezadoMain__barraInferior {
-        width: 100%;
-        height: 56px;
-        background-color: $color-oscuro;
-        padding-top: 10px;
-        
-        
-    }
+   
     .sectionHome {
         margin: 30px 15px 30px 15px;
         
@@ -393,6 +389,9 @@
         flex-direction: column;        
         background-color: rgb(250, 157, 8);
         margin:0;
+        box-shadow: -2px 5px 14px 5px rgba(0,0,0,0.29);
+-webkit-box-shadow: -2px 5px 14px 5px rgba(0,0,0,0.29);
+-moz-box-shadow: -2px 5px 14px 5px rgba(0,0,0,0.29);
         
     
         .encabezadoMain__divTexto {
@@ -427,15 +426,7 @@
             height: auto;        
         }
        
-    }
-    .encabezadoMain__barraInferior {
-        width: 100%;
-        height: 56px;
-        background-color: $color-oscuro;
-        padding-top: 10px;
-        
-        
-    }
+    }    
     .sectionHome {
         margin: 30px 15px 30px 15px;
         
@@ -683,7 +674,7 @@
 
 }
 
-@media only screen and (min-width:992px) {
+@media only screen and (min-width:1024px) {
     * {
         margin: 0;
         padding: 0;
@@ -701,7 +692,7 @@
     /*Main*/
     .mainLeyenda {        
         &__span {
-            color: $color-naranja;
+            color: $color-encabezadoHome;
             &--jujuy {
                 color:$color-encabezadoJujuy;
 
@@ -738,8 +729,11 @@
         display: grid;
         grid-template-columns: 1fr 1fr;
         padding: 50px 0 50px 0;
-        background-color: rgb(250, 157, 8);
+        background-color: $color-encabezadoHome;
         margin:0;
+        box-shadow: -2px 5px 14px 5px rgba(0,0,0,0.29);
+-webkit-box-shadow: -2px 5px 14px 5px rgba(0,0,0,0.29);
+-moz-box-shadow: -2px 5px 14px 5px rgba(0,0,0,0.29);
         
     
         .encabezadoMain__divTexto {
@@ -774,15 +768,7 @@
             height: auto;        
         }
        
-    }
-    .encabezadoMain__barraInferior {
-        width: 100%;
-        height: 56px;
-        background-color: $color-oscuro;
-        padding-top: 10px;
-        
-        
-    }
+    }    
     .sectionHome {
         margin: 30px 15px 30px 15px;
         
