@@ -2543,21 +2543,39 @@
   margin: 50px 0 50px 0;
 }
 
+body {
+  background-color: #F95738;
+}
+
 .body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
 }
 .body__titulo {
   font-family: dosis;
-  font-size: 40px;
+  font-size: 30px;
+  margin: 20px 0 20px 0;
+  color: white;
+  text-align: center;
 }
 .body__texto {
   font-family: dosis;
-  font-size: 30px;
+  font-size: 50px;
+  margin: 20px 0 20px 0;
+  color: white;
+  text-align: center;
 }
 .body__enlace {
   text-decoration: none;
+  font-family: dosis;
+  margin: 50px 0 20px 0;
+  color: white;
+  transition: 0.5s;
+}
+.body__enlace:hover {
+  color: black;
 }
 
 /*# sourceMappingURL=style.css.map */
