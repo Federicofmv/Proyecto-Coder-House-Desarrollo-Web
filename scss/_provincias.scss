@@ -1,28 +1,31 @@
-@import "variables"; 
+@import "variables";
 
 @media only screen and (max-width:576px) {
-    *{
+    * {
         padding: 0;
-        margin:0;
-    
+        margin: 0;
+
     }
+
     /*JUJUY*/
     /* Header */
     .headerJujuy {
         .headerJujuy__div {
             border-bottom: 1px solid #9c9c9c;
         }
-    
+
         .headerJujuy__span {
             color: $color-encabezadoJujuy;
-            
-    
-        }    
+
+
+        }
     }
+
     .listaEncabezado {
         position: sticky;
-        top:75px;
+        top: 75px;
         z-index: 2;
+
         &__lista {
             display: flex;
             flex-direction: row;
@@ -35,356 +38,390 @@
 
 
         }
-        &__item {
-            font-family: dosis;  
-            text-align: center;       
-          
 
-        }       
+        &__item {
+            font-family: dosis;
+            text-align: center;
+
+
+        }
+
         &__enlace {
             text-decoration: none;
             font-size: 15px;
-            color: $color-blanco;          
-           
-            transition: 0.8s;
-            &--salta {
-            text-decoration: none;
-            font-size: 17px;
             color: $color-blanco;
-            margin: 0 30px 0 30px;
-            padding: 12px 10px 12px 10px;
+
             transition: 0.8s;
-            }  
+
+            &--salta {
+                text-decoration: none;
+                font-size: 15px;
+                color: $color-blanco;
+                transition: 0.8s;
+            }
+
             &--tucuman {
                 text-decoration: none;
-                font-size: 17px;
+                font-size: 15px;
                 color: $color-blanco;
-                margin: 0 30px 0 30px;
-                padding: 12px 10px 12px 10px;
                 transition: 0.8s;
 
-            }   
+            }
+
             &--catamarca {
                 text-decoration: none;
-                font-size: 17px;
+                font-size: 15px;
                 color: $color-blanco;
-                margin: 0 30px 0 30px;
-                padding: 12px 10px 12px 10px;
                 transition: 0.8s;
 
             }
 
         }
+
         &__enlace:hover {
-            color:$color-encabezadoJujuy;
-                     
-            
+            color: $color-encabezadoJujuy;
+
+
         }
+
         &__enlace--salta:hover {
-            color:$color-encabezadoSalta;
-            
+            color: $color-encabezadoSalta;
+
         }
+
         &__enlace--tucuman:hover {
-            color:$color-encabezadoTucuman;
-            
+            color: $color-encabezadoTucuman;
+
         }
+
         &__enlace--catamarca:hover {
-            color:$color-encabezadoCatamarca;                  
-           
+            color: $color-encabezadoCatamarca;
+
 
         }
     }
+
     .encabezadoMainJujuy {
         display: flex;
-        flex-direction: column;      
-        
-        background-color: $color-encabezadoJujuy; 
-        padding-bottom: 20px;       
-    
+        flex-direction: column;
+
+        background-color: $color-encabezadoJujuy;
+        padding-bottom: 20px;
+
         .encabezadoMainJujuy__divTexto {
             text-align: justify;
             display: flex;
             flex-direction: column;
             align-items: center;
-            justify-content: center;            
+            justify-content: center;
             margin: 20px 0px 20px 0px;
             color: $color-blanco;
-            font-family: dosis; 
+            font-family: dosis;
         }
+
         .encabezadoMainJujuy__subtitulo {
             margin: 30px 0 30px 0;
             font-weight: bold;
             font-size: 30px;
         }
+
         .encabezadoMainJujuy__texto {
-            margin: 0 10px 0 10px; 
-            text-align: justify;        
+            margin: 0 10px 0 10px;
+            text-align: justify;
         }
-        .encabezadoMainJujuy__divImg {            
+
+        .encabezadoMainJujuy__divImg {
             display: flex;
             justify-content: center;
             align-items: center;
-    
+
         }
+
         .encabezadoMainJujuy__img {
             width: 95%;
             height: auto;
-            border-radius: 5px;    
-            box-shadow: 10px 11px 16px -2px rgba(0,0,0,0.37);
--webkit-box-shadow: 10px 11px 16px -2px rgba(0,0,0,0.37);
--moz-box-shadow: 10px 11px 16px -2px rgba(0,0,0,0.37);      
+            border-radius: 5px;
+            box-shadow: 10px 11px 16px -2px rgba(0, 0, 0, 0.37);
+            -webkit-box-shadow: 10px 11px 16px -2px rgba(0, 0, 0, 0.37);
+            -moz-box-shadow: 10px 11px 16px -2px rgba(0, 0, 0, 0.37);
         }
-       
+
     }
+
     .divLogosFooterJujuy__textoInferior {
-        font-size: 15px;    
-        color:$color-encabezadoJujuy;
-        background-color: $color-oscuro;    
+        font-size: 15px;
+        color: $color-encabezadoJujuy;
+        background-color: $color-oscuro;
         font-family: dosis;
         text-align: center;
         padding: 15px 0 15px 0;
         margin: 0 !important;
     }
+
     /*Salta*/
     /* Header */
     .headerSalta {
         .headerSalta__div {
             border-bottom: 1px solid #9c9c9c;
         }
-    
+
         .headerSalta__span {
             color: $color-encabezadoSalta;
-    
-        }    
+
+        }
     }
+
     .encabezadoMainSalta {
         display: flex;
-        flex-direction: column;             
+        flex-direction: column;
         background-color: $color-encabezadoSalta;
-        padding-bottom: 20px;  
-        
-    
+        padding-bottom: 20px;
+
+
         .encabezadoMainSalta__divTexto {
             text-align: justify;
             display: flex;
             flex-direction: column;
             align-items: center;
-            justify-content: center;            
+            justify-content: center;
             margin: 20px 0px 20px 0px;
             color: $color-blanco;
-            font-family: dosis; 
+            font-family: dosis;
         }
+
         .encabezadoMainSalta__subtitulo {
             margin: 30px 0 30px 0;
             font-weight: bold;
             font-size: 30px;
         }
-        .encabezadoMainSalta__texto {            
+
+        .encabezadoMainSalta__texto {
             margin: 0 10px 0 10px;
         }
-        .encabezadoMainSalta__divImg {          
+
+        .encabezadoMainSalta__divImg {
             display: flex;
             justify-content: center;
             align-items: center;
-    
+
         }
+
         .encabezadoMainSalta__img {
             width: 95%;
             height: auto;
-            border-radius: 5px;     
-            box-shadow: 10px 11px 16px -2px rgba(0,0,0,0.37);
--webkit-box-shadow: 10px 11px 16px -2px rgba(0,0,0,0.37);
--moz-box-shadow: 10px 11px 16px -2px rgba(0,0,0,0.37);    
+            border-radius: 5px;
+            box-shadow: 10px 11px 16px -2px rgba(0, 0, 0, 0.37);
+            -webkit-box-shadow: 10px 11px 16px -2px rgba(0, 0, 0, 0.37);
+            -moz-box-shadow: 10px 11px 16px -2px rgba(0, 0, 0, 0.37);
         }
-       
+
     }
+
     .divLogosFooterSalta__textoInferior {
-        font-size: 15px;    
-        color:$color-encabezadoSalta;
-        background-color: $color-oscuro;    
+        font-size: 15px;
+        color: $color-encabezadoSalta;
+        background-color: $color-oscuro;
         font-family: dosis;
         text-align: center;
         padding: 15px 0 15px 0;
         margin: 0 !important;
     }
+
     /*Tucuman*/
     /* Header */
     .headerTucuman {
         .headerTucuman__div {
             border-bottom: 1px solid #9c9c9c;
         }
-    
+
         .spanTucuman__div {
             color: $color-encabezadoTucuman;
-    
-        }    
+
+        }
     }
+
     .encabezadoMainTucuman {
         display: flex;
-        flex-direction: column;              
+        flex-direction: column;
         background-color: $color-encabezadoTucuman;
-        padding-bottom: 20px;  
-        
-    
+        padding-bottom: 20px;
+
+
         .encabezadoMainTucuman__divTexto {
             text-align: justify;
             display: flex;
             flex-direction: column;
             align-items: center;
-            justify-content: center;            
+            justify-content: center;
             margin: 20px 0px 20px 0px;
             color: $color-oscuro;
-            font-family: dosis; 
+            font-family: dosis;
         }
+
         .encabezadoMainTucuman__subtitulo {
             margin: 30px 0 30px 0;
             font-weight: bold;
             font-size: 30px;
         }
-        .encabezadoMainTucuman__texto {           
+
+        .encabezadoMainTucuman__texto {
             margin: 0 10px 0 10px;
         }
-        .encabezadoMainTucuman__divImg {            
+
+        .encabezadoMainTucuman__divImg {
             display: flex;
             justify-content: center;
-            align-items: center;;
-    
+            align-items: center;
+            ;
+
         }
+
         .encabezadoMainTucuman__img {
             width: 95%;
             height: auto;
-            border-radius: 5px;                
-            box-shadow: 10px 11px 16px -2px rgba(0,0,0,0.37);
--webkit-box-shadow: 10px 11px 16px -2px rgba(0,0,0,0.37);
--moz-box-shadow: 10px 11px 16px -2px rgba(0,0,0,0.37);
+            border-radius: 5px;
+            box-shadow: 10px 11px 16px -2px rgba(0, 0, 0, 0.37);
+            -webkit-box-shadow: 10px 11px 16px -2px rgba(0, 0, 0, 0.37);
+            -moz-box-shadow: 10px 11px 16px -2px rgba(0, 0, 0, 0.37);
         }
-       
+
     }
+
     .divLogosFooterTucuman__textoInferior {
-        font-size: 15px;    
-        color:$color-encabezadoTucuman;
-        background-color: $color-oscuro;    
+        font-size: 15px;
+        color: $color-encabezadoTucuman;
+        background-color: $color-oscuro;
         font-family: dosis;
         text-align: center;
         padding: 15px 0 15px 0;
         margin: 0 !important;
     }
-    
+
     /*Catamarca*/
     /* Header */
     .headerCatamarca {
         .headerCatamarca__div {
             border-bottom: 1px solid #9c9c9c;
         }
-    
+
         .headerCatamarca__span {
             color: $color-encabezadoCatamarca;
-    
-        }    
+
+        }
     }
+
     .encabezadoMainCatamarca {
         display: flex;
-        flex-direction: column;       
-        padding-bottom: 20px;         
+        flex-direction: column;
+        padding-bottom: 20px;
         background-color: $color-encabezadoCatamarca;
-        
-    
+
+
         .encabezadoMainCatamarca__divTexto {
             display: flex;
             flex-direction: column;
             align-items: center;
-            justify-content: center;           
+            justify-content: center;
             margin: 20px 0px 20px 0px;
             color: $color-blanco;
-            font-family: dosis; 
+            font-family: dosis;
             color: $color-blanco;
         }
+
         .encabezadoMainCatamarca__subtitulo {
             margin: 30px 0 30px 0;
             font-weight: bold;
             font-size: 30px;
         }
+
         .encabezadoMainCatamarca__texto {
-           
+
             margin: 0 10px 0 10px;
         }
+
         .encabezadoMainCatamarca__divImg {
-           
+
             display: flex;
             justify-content: center;
             align-items: center;
-    
+
         }
+
         .encabezadoMainCatamarca__img {
             width: 95%;
             height: auto;
-            border-radius: 5px;               
-            box-shadow: 10px 11px 16px -2px rgba(0,0,0,0.37);
--webkit-box-shadow: 10px 11px 16px -2px rgba(0,0,0,0.37);
--moz-box-shadow: 10px 11px 16px -2px rgba(0,0,0,0.37);   
+            border-radius: 5px;
+            box-shadow: 10px 11px 16px -2px rgba(0, 0, 0, 0.37);
+            -webkit-box-shadow: 10px 11px 16px -2px rgba(0, 0, 0, 0.37);
+            -moz-box-shadow: 10px 11px 16px -2px rgba(0, 0, 0, 0.37);
         }
-       
+
     }
+
     .divLogosFooterCatamarca__textoInferior {
-        font-size: 15px;    
-        color:$color-encabezadoCatamarca;
-        background-color: $color-oscuro;    
+        font-size: 15px;
+        color: $color-encabezadoCatamarca;
+        background-color: $color-oscuro;
         font-family: dosis;
         text-align: center;
         padding: 15px 0 15px 0;
         margin: 0 !important;
     }
+
     .section__titulo {
         display: flex;
         align-items: center;
         justify-content: center;
-        text-align: center;        
-        font-size: 30px;        
+        text-align: center;
+        font-size: 30px;
         font-family: dosis;
-        margin-bottom: 40px; 
+        margin-bottom: 40px;
         height: 100px;
         background-color: $color-oscuro;
-        color: $color-blanco;  
-            
-        
-    
+        color: $color-blanco;
+
+
+
     }
+
     .section {
         display: flex;
-        flex-direction: column;  
-        align-items: center;      
-        width: 100%; 
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
     }
-    .article { 
-        margin: 20px auto 20px  auto; 
+
+    .article {
+        margin: 20px auto 20px auto;
         display: flex;
         flex-direction: column;
-        align-items: center;  
-        position: relative;        
+        align-items: center;
+        position: relative;
         background-color: $color-grisClaro;
-        border-radius: 10px; 
+        border-radius: 10px;
         padding-bottom: 30px;
         width: 98%;
         text-align: center;
+
         &--atractivosTuristicos {
-            margin: 20px auto 20px  auto;  
+            margin: 20px auto 20px auto;
             display: flex;
             flex-direction: column;
-            align-items: center;  
-            position: relative;        
+            align-items: center;
+            position: relative;
             background-color: $color-grisClaro;
             border-radius: 10px;
             width: 98%;
-        }      
-   
-        
-        &__subtitulo{
+        }
+
+
+        &__subtitulo {
             color: $color-blanco;
             background-color: $color-encabezadoJujuy;
             padding: 10px 20px 10px 20px;
             border-radius: 10px;
             margin: 10px 0 10px 0;
-            font-family: dosis; 
+            font-family: dosis;
             box-shadow: 2px 2px 2px rgb(131, 131, 131);
 
             &--salta {
@@ -394,9 +431,10 @@
                 border-radius: 10px;
                 box-shadow: 2px 2px 2px rgb(131, 131, 131);
                 margin: 10px 0 10px 0;
-                font-family: dosis; 
+                font-family: dosis;
                 background-color: $color-encabezadoSalta;
             }
+
             &--tucuman {
                 color: $color-blanco;
                 background-color: $color-encabezadoJujuy;
@@ -404,177 +442,197 @@
                 box-shadow: 2px 2px 2px rgb(131, 131, 131);
                 border-radius: 10px;
                 margin: 10px 0 10px 0;
-                font-family: dosis; 
-            background-color: $color-encabezadoTucuman;
-            color: $color-oscuro
+                font-family: dosis;
+                background-color: $color-encabezadoTucuman;
+                color: $color-oscuro
             }
+
             &--catamarca {
                 color: $color-blanco;
-            background-color: $color-encabezadoJujuy;
-            padding: 10px 20px 10px 20px;
-            border-radius: 10px;
-            box-shadow: 2px 2px 2px rgb(131, 131, 131);
-            margin: 10px 0 10px 0;
-            font-family: dosis; 
+                background-color: $color-encabezadoJujuy;
+                padding: 10px 20px 10px 20px;
+                border-radius: 10px;
+                box-shadow: 2px 2px 2px rgb(131, 131, 131);
+                margin: 10px 0 10px 0;
+                font-family: dosis;
                 background-color: $color-encabezadoCatamarca;
-        
-                }
+
+            }
         }
-        &__boton {            
+
+        &__boton {
             font-family: dosis;
             font-size: 20px;
-            letter-spacing:.5px;
+            letter-spacing: .5px;
             transition: .5s;
         }
+
         &__boton:hover {
             opacity: 0.8;
             transform: scale(1.05);
-            
+
         }
+
         &__texto {
             margin: 30px 10px 30px 10px;
             text-align: justify;
-            color: $color-oscuro;  
-            font-family: dosis; 
+            color: $color-oscuro;
+            font-family: dosis;
 
         }
+
         &__imagen {
             width: 90%;
-                height: 250px;
-                border-radius: 5px;
+            height: 250px;
+            border-radius: 5px;
+
             &--alojamiento {
                 width: 95%;
                 height: 250px;
                 margin: 10px 10px 10px 10px;
                 border-radius: 5px;
             }
-    
+
         }
     }
+
     .alojamientos {
-        display: flex;        
+        display: flex;
         flex-direction: column;
         align-items: center;
         background-color: $color-encabezadoJujuy;
+
         &--salta {
             display: flex;
-        flex-direction: column;   
-        align-items: center;   
+            flex-direction: column;
+            align-items: center;
             background-color: $color-encabezadoSalta;
         }
+
         &--tucuman {
             display: flex;
-        flex-direction: column;
-        align-items: center;
-        
+            flex-direction: column;
+            align-items: center;
+
             background-color: $color-encabezadoTucuman;
         }
+
         &--catamarca {
             display: flex;
-        flex-direction: column;
-        align-items: center;
+            flex-direction: column;
+            align-items: center;
             background-color: $color-encabezadoCatamarca;
         }
     }
+
     .alojamientos__titulo {
-        text-align: center;        
-        font-size: 30px;       
-        font-family: dosis;    
-        background-color: $color-encabezadoJujuy;       
-        border:none;
+        text-align: center;
+        font-size: 30px;
+        font-family: dosis;
+        background-color: $color-encabezadoJujuy;
+        border: none;
         margin: 0 !important;
-        color:$color-blanco;
+        color: $color-blanco;
         padding: 30px 0 30px 0;
+
         &--salta {
             text-align: center;
-           
+
             font-size: 30px;
             border: 1px solid $color-gris;
-            font-family: dosis;    
+            font-family: dosis;
             background-color: $color-encabezadoJujuy;
             margin-bottom: 0;
-            border:none;
-            color:$color-blanco;
+            border: none;
+            color: $color-blanco;
             padding: 30px 0 30px 0;
-           background-color: $color-encabezadoSalta; 
+            background-color: $color-encabezadoSalta;
         }
+
         &--tucuman {
             text-align: center;
-        
-        font-size: 30px;
-        border: 1px solid $color-gris;
-        font-family: dosis;    
-        background-color: $color-encabezadoJujuy;
-        margin-bottom: 0;
-        border:none;
-        color:$color-blanco;
-        padding: 30px 0 30px 0;
-            background-color: $color-encabezadoTucuman; 
-            color:$color-oscuro;
-    
+
+            font-size: 30px;
+            border: 1px solid $color-gris;
+            font-family: dosis;
+            background-color: $color-encabezadoJujuy;
+            margin-bottom: 0;
+            border: none;
+            color: $color-blanco;
+            padding: 30px 0 30px 0;
+            background-color: $color-encabezadoTucuman;
+            color: $color-oscuro;
+
         }
+
         &--catamarca {
             text-align: center;
-        
-        font-size: 30px;
-        border: 1px solid $color-gris;
-        font-family: dosis;    
-        background-color: $color-encabezadoJujuy;
-        margin-bottom: 0;
-        border:none;
-        color:$color-blanco;
-        padding: 30px 0 30px 0;
-            background-color: $color-encabezadoCatamarca; 
-        }   
+
+            font-size: 30px;
+            border: 1px solid $color-gris;
+            font-family: dosis;
+            background-color: $color-encabezadoJujuy;
+            margin-bottom: 0;
+            border: none;
+            color: $color-blanco;
+            padding: 30px 0 30px 0;
+            background-color: $color-encabezadoCatamarca;
+        }
     }
+
     .fotoAlojamientos {
         display: none;
     }
+
     .mapa {
         display: flex;
         flex-direction: column;
         align-items: center;
         background-color: $color-oscuro;
         padding-top: 20px;
-        
-        .mapa__titulo {        
+
+        .mapa__titulo {
             color: $color-blanco;
             font-family: dosis;
             padding: 10px 85px 10px 85px;
             margin: 0 !important;
             border: 1px solid $color-blanco;
         }
+
         .mapa__iframe {
             width: 80%;
             height: 500px;
-            padding: 20px 0 20px 0;    
+            padding: 20px 0 20px 0;
         }
     }
 
 }
 
 @media only screen and (min-width:576px) {
-    *{
+    * {
         padding: 0;
-        margin:0;
-    
+        margin: 0;
+
     }
+
     /*JUJUY*/
     /* Header */
     .headerJujuy {
         .headerJujuy__div {
             border-bottom: 1px solid #9c9c9c;
         }
-    
+
         .headerJujuy__span {
             color: $color-encabezadoJujuy;
-    
-        }    
+
+        }
     }
+
     .listaEncabezado {
         position: sticky;
-        top:75px;
+        top: 75px;
         z-index: 2;
+
         &__lista {
             display: flex;
             justify-content: center;
@@ -585,11 +643,13 @@
 
 
         }
-        &__item {
-            font-family: dosis;        
-          
 
-        }       
+        &__item {
+            font-family: dosis;
+
+
+        }
+
         &__enlace {
             text-decoration: none;
             font-size: 18px;
@@ -597,14 +657,16 @@
             margin: 0 30px 0 30px;
             padding: 12px 10px 12px 10px;
             transition: 0.8s;
+
             &--salta {
-            text-decoration: none;
-            font-size: 18px;
-            color: $color-blanco;
-            margin: 0 30px 0 30px;
-            padding: 12px 10px 12px 10px;
-            transition: 0.8s;
-            }  
+                text-decoration: none;
+                font-size: 18px;
+                color: $color-blanco;
+                margin: 0 30px 0 30px;
+                padding: 12px 10px 12px 10px;
+                transition: 0.8s;
+            }
+
             &--tucuman {
                 text-decoration: none;
                 font-size: 18px;
@@ -613,7 +675,8 @@
                 padding: 12px 10px 12px 10px;
                 transition: 0.8s;
 
-            }   
+            }
+
             &--catamarca {
                 text-decoration: none;
                 font-size: 18px;
@@ -625,36 +688,41 @@
             }
 
         }
+
         &__enlace:hover {
-            color:$color-oscuro;
-            background-color: $color-encabezadoJujuy;            
-            padding: 12px 10px 12px 10px;            
-            
-        }
-        &__enlace--salta:hover {
-            color:$color-oscuro;
-            background-color: $color-encabezadoSalta;            
-            padding: 12px 10px 12px 10px;  
-        }
-        &__enlace--tucuman:hover {
-            color:$color-oscuro;
-            background-color: $color-encabezadoTucuman;            
-            padding: 12px 10px 12px 10px;  
+            color: $color-oscuro;
+            background-color: $color-encabezadoJujuy;
+            padding: 12px 10px 12px 10px;
 
         }
+
+        &__enlace--salta:hover {
+            color: $color-oscuro;
+            background-color: $color-encabezadoSalta;
+            padding: 12px 10px 12px 10px;
+        }
+
+        &__enlace--tucuman:hover {
+            color: $color-oscuro;
+            background-color: $color-encabezadoTucuman;
+            padding: 12px 10px 12px 10px;
+
+        }
+
         &__enlace--catamarca:hover {
-            color:$color-oscuro;
-            background-color: $color-encabezadoCatamarca;            
-            padding: 12px 10px 12px 10px;  
+            color: $color-oscuro;
+            background-color: $color-encabezadoCatamarca;
+            padding: 12px 10px 12px 10px;
 
         }
     }
+
     .encabezadoMainJujuy {
         display: flex;
-        flex-direction: column;        
+        flex-direction: column;
         padding: 20px 0 20px 0;
-        background-color: $color-encabezadoJujuy;        
-    
+        background-color: $color-encabezadoJujuy;
+
         .encabezadoMainJujuy__divTexto {
             text-align: justify;
             display: flex;
@@ -664,290 +732,322 @@
             grid-column: 1/2;
             margin: 20px 30px 20px 30px;
             color: $color-blanco;
-            font-family: dosis; 
+            font-family: dosis;
         }
+
         .encabezadoMainJujuy__subtitulo {
             margin: 30px 0 30px 0;
             font-weight: bold;
         }
+
         .encabezadoMainJujuy__texto {
             grid-column: 1/2;
             margin: 0 30px 0 30px;
             width: 100%;
             font-size: 17px;
         }
-        .encabezadoMainJujuy__divImg {            
+
+        .encabezadoMainJujuy__divImg {
             display: flex;
             justify-content: center;
             align-items: center;
-    
+
         }
+
         .encabezadoMainJujuy__img {
             width: 70%;
             height: auto;
-            border-radius: 5px;    
-            box-shadow: 10px 11px 16px -2px rgba(0,0,0,0.37);
--webkit-box-shadow: 10px 11px 16px -2px rgba(0,0,0,0.37);
--moz-box-shadow: 10px 11px 16px -2px rgba(0,0,0,0.37);      
+            border-radius: 5px;
+            box-shadow: 10px 11px 16px -2px rgba(0, 0, 0, 0.37);
+            -webkit-box-shadow: 10px 11px 16px -2px rgba(0, 0, 0, 0.37);
+            -moz-box-shadow: 10px 11px 16px -2px rgba(0, 0, 0, 0.37);
         }
-       
+
     }
+
     .divLogosFooterJujuy__textoInferior {
-        font-size: 15px;    
-        color:$color-encabezadoJujuy;
-        background-color: $color-oscuro;    
+        font-size: 15px;
+        color: $color-encabezadoJujuy;
+        background-color: $color-oscuro;
         font-family: dosis;
         text-align: center;
         padding: 15px 0 15px 0;
         margin: 0 !important;
     }
+
     /*Salta*/
     /* Header */
     .headerSalta {
         .headerSalta__div {
             border-bottom: 1px solid #9c9c9c;
         }
-    
+
         .headerSalta__span {
             color: $color-encabezadoSalta;
-    
-        }    
+
+        }
     }
+
     .encabezadoMainSalta {
         display: flex;
-        flex-direction: column;        
-        padding: 20px 0 20px 0;        
+        flex-direction: column;
+        padding: 20px 0 20px 0;
         background-color: $color-encabezadoSalta;
-        
-    
+
+
         .encabezadoMainSalta__divTexto {
             text-align: justify;
             display: flex;
             flex-direction: column;
             align-items: center;
-            justify-content: center;            
+            justify-content: center;
             margin: 20px 30px 20px 30px;
             color: $color-blanco;
-            font-family: dosis; 
+            font-family: dosis;
         }
+
         .encabezadoMainSalta__subtitulo {
             margin: 30px 0 30px 0;
             font-weight: bold;
         }
-        .encabezadoMainSalta__texto {            
+
+        .encabezadoMainSalta__texto {
             margin: 0 30px 0 30px;
         }
-        .encabezadoMainSalta__divImg {          
+
+        .encabezadoMainSalta__divImg {
             display: flex;
             justify-content: center;
             align-items: center;
-    
+
         }
+
         .encabezadoMainSalta__img {
             width: 60%;
             height: auto;
-            border-radius: 5px;     
-            box-shadow: 10px 11px 16px -2px rgba(0,0,0,0.37);
--webkit-box-shadow: 10px 11px 16px -2px rgba(0,0,0,0.37);
--moz-box-shadow: 10px 11px 16px -2px rgba(0,0,0,0.37);     
+            border-radius: 5px;
+            box-shadow: 10px 11px 16px -2px rgba(0, 0, 0, 0.37);
+            -webkit-box-shadow: 10px 11px 16px -2px rgba(0, 0, 0, 0.37);
+            -moz-box-shadow: 10px 11px 16px -2px rgba(0, 0, 0, 0.37);
         }
-       
+
     }
+
     .divLogosFooterSalta__textoInferior {
-        font-size: 15px;    
-        color:$color-encabezadoSalta;
-        background-color: $color-oscuro;    
+        font-size: 15px;
+        color: $color-encabezadoSalta;
+        background-color: $color-oscuro;
         font-family: dosis;
         text-align: center;
         padding: 15px 0 15px 0;
         margin: 0 !important;
     }
+
     /*Tucuman*/
     /* Header */
     .headerTucuman {
         .headerTucuman__div {
             border-bottom: 1px solid #9c9c9c;
         }
-    
+
         .spanTucuman__div {
             color: $color-encabezadoTucuman;
-    
-        }    
+
+        }
     }
+
     .encabezadoMainTucuman {
         display: flex;
         flex-direction: column;
-        padding: 20px 0 20px 0;       
+        padding: 20px 0 20px 0;
         background-color: $color-encabezadoTucuman;
-        
-    
+
+
         .encabezadoMainTucuman__divTexto {
             text-align: justify;
             display: flex;
             flex-direction: column;
             align-items: center;
-            justify-content: center;            
+            justify-content: center;
             margin: 20px 30px 20px 30px;
             color: $color-oscuro;
-            font-family: dosis; 
+            font-family: dosis;
         }
+
         .encabezadoMainTucuman__subtitulo {
             margin: 30px 0 30px 0;
             font-weight: bold;
         }
-        .encabezadoMainTucuman__texto {           
+
+        .encabezadoMainTucuman__texto {
             margin: 0 30px 0 30px;
         }
-        .encabezadoMainTucuman__divImg {            
+
+        .encabezadoMainTucuman__divImg {
             display: flex;
             justify-content: center;
-            align-items: center;;
-    
+            align-items: center;
+            ;
+
         }
+
         .encabezadoMainTucuman__img {
             width: 60%;
             height: auto;
-            border-radius: 5px;                
-            box-shadow: 10px 11px 16px -2px rgba(0,0,0,0.37);
--webkit-box-shadow: 10px 11px 16px -2px rgba(0,0,0,0.37);
--moz-box-shadow: 10px 11px 16px -2px rgba(0,0,0,0.37);
+            border-radius: 5px;
+            box-shadow: 10px 11px 16px -2px rgba(0, 0, 0, 0.37);
+            -webkit-box-shadow: 10px 11px 16px -2px rgba(0, 0, 0, 0.37);
+            -moz-box-shadow: 10px 11px 16px -2px rgba(0, 0, 0, 0.37);
         }
-       
+
     }
+
     .divLogosFooterTucuman__textoInferior {
-        font-size: 15px;    
-        color:$color-encabezadoTucuman;
-        background-color: $color-oscuro;    
+        font-size: 15px;
+        color: $color-encabezadoTucuman;
+        background-color: $color-oscuro;
         font-family: dosis;
         text-align: center;
         padding: 15px 0 15px 0;
         margin: 0 !important;
     }
-    
+
     /*Catamarca*/
     /* Header */
     .headerCatamarca {
         .headerCatamarca__div {
             border-bottom: 1px solid #9c9c9c;
         }
-    
+
         .headerCatamarca__span {
             color: $color-encabezadoCatamarca;
-    
-        }    
+
+        }
     }
+
     .encabezadoMainCatamarca {
         display: flex;
-        flex-direction: column;        
-        padding: 20px 0 20px 0;        
+        flex-direction: column;
+        padding: 20px 0 20px 0;
         background-color: $color-encabezadoCatamarca;
-        
-    
+
+
         .encabezadoMainCatamarca__divTexto {
             display: flex;
             flex-direction: column;
             align-items: center;
-            justify-content: center;           
+            justify-content: center;
             margin: 20px 30px 20px 30px;
             color: $color-blanco;
-            font-family: dosis; 
+            font-family: dosis;
             color: $color-blanco;
         }
+
         .encabezadoMainCatamarca__subtitulo {
             margin: 30px 0 30px 0;
             font-weight: bold;
         }
+
         .encabezadoMainCatamarca__texto {
-           
+
             margin: 0 30px 0 30px;
         }
+
         .encabezadoMainCatamarca__divImg {
-           
+
             display: flex;
             justify-content: center;
             align-items: center;
-    
+
         }
+
         .encabezadoMainCatamarca__img {
             width: 60%;
             height: auto;
-            border-radius: 5px;               
-            box-shadow: 10px 11px 16px -2px rgba(0,0,0,0.37);
--webkit-box-shadow: 10px 11px 16px -2px rgba(0,0,0,0.37);
--moz-box-shadow: 10px 11px 16px -2px rgba(0,0,0,0.37);     
+            border-radius: 5px;
+            box-shadow: 10px 11px 16px -2px rgba(0, 0, 0, 0.37);
+            -webkit-box-shadow: 10px 11px 16px -2px rgba(0, 0, 0, 0.37);
+            -moz-box-shadow: 10px 11px 16px -2px rgba(0, 0, 0, 0.37);
         }
-       
+
     }
+
     .divLogosFooterCatamarca__textoInferior {
-        font-size: 15px;    
-        color:$color-encabezadoCatamarca;
-        background-color: $color-oscuro;    
+        font-size: 15px;
+        color: $color-encabezadoCatamarca;
+        background-color: $color-oscuro;
         font-family: dosis;
         text-align: center;
         padding: 15px 0 15px 0;
         margin: 0 !important;
     }
+
     .section__titulo {
         display: flex;
         align-items: center;
         justify-content: center;
-        text-align: center;        
-        font-size: 40px;        
+        text-align: center;
+        font-size: 40px;
         font-family: dosis;
-        margin-bottom: 40px; 
+        margin-bottom: 40px;
         height: 100px;
         background-color: $color-oscuro;
-        color: $color-blanco;      
-        
-    
+        color: $color-blanco;
+
+
     }
+
     .section {
         display: flex;
-        flex-direction: column;        
-        width: 100%; 
-    }    
-        .article { 
-            margin: 20px auto 20px  auto; 
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .article {
+        margin: 20px auto 20px auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+        background-color: $color-grisClaro;
+        border-radius: 10px;
+        padding-bottom: 40px;
+        width: 95%;
+        text-align: center;
+
+        &--atractivosTuristicos {
+            margin: 20px auto 20px auto;
             display: flex;
             flex-direction: column;
-            align-items: center;  
-            position: relative;        
+            align-items: center;
+            position: relative;
             background-color: $color-grisClaro;
-            border-radius: 10px; 
-            padding-bottom: 40px;
+            border-radius: 10px;
             width: 95%;
-            text-align: center;
-            &--atractivosTuristicos {
-                margin: 20px auto 20px  auto;  
-                display: flex;
-                flex-direction: column;
-                align-items: center;  
-                position: relative;        
-                background-color: $color-grisClaro;
-                border-radius: 10px;
-                width: 95%;
-            }      
-     
-        
-        &__subtitulo{
+        }
+
+
+        &__subtitulo {
             color: $color-blanco;
             background-color: $color-encabezadoJujuy;
             padding: 10px 20px 10px 20px;
             border-radius: 10px;
             margin: 10px 0 10px 0;
-            font-family: dosis; 
+            font-family: dosis;
             font-size: 20px;
             box-shadow: 2px 2px 2px rgb(131, 131, 131);
+
             &--salta {
                 color: $color-blanco;
                 background-color: $color-encabezadoJujuy;
                 padding: 10px 20px 10px 20px;
                 border-radius: 10px;
                 margin: 10px 0 10px 0;
-                font-family: dosis; 
+                font-family: dosis;
                 box-shadow: 2px 2px 2px rgb(131, 131, 131);
                 background-color: $color-encabezadoSalta;
             }
+
             &--tucuman {
                 color: $color-blanco;
                 background-color: $color-encabezadoJujuy;
@@ -955,162 +1055,181 @@
                 border-radius: 10px;
                 box-shadow: 2px 2px 2px rgb(131, 131, 131);
                 margin: 10px 0 10px 0;
-                font-family: dosis; 
-            background-color: $color-encabezadoTucuman;
-            color: $color-oscuro
+                font-family: dosis;
+                background-color: $color-encabezadoTucuman;
+                color: $color-oscuro
             }
+
             &--catamarca {
                 color: $color-blanco;
-            background-color: $color-encabezadoJujuy;
-            padding: 10px 20px 10px 20px;
-            border-radius: 10px;
-            box-shadow: 2px 2px 2px rgb(131, 131, 131);
-            margin: 10px 0 10px 0;
-            font-family: dosis; 
+                background-color: $color-encabezadoJujuy;
+                padding: 10px 20px 10px 20px;
+                border-radius: 10px;
+                box-shadow: 2px 2px 2px rgb(131, 131, 131);
+                margin: 10px 0 10px 0;
+                font-family: dosis;
                 background-color: $color-encabezadoCatamarca;
-        
-                }
+
+            }
         }
-        &__boton {            
+
+        &__boton {
             font-family: dosis;
             font-size: 20px;
-            letter-spacing:.5px;
+            letter-spacing: .5px;
             transition: 0.5s;
-        }        
+        }
+
         &__boton:hover {
             opacity: 0.8;
-            transform: scale(1.05);            
+            transform: scale(1.05);
         }
+
         &__texto {
             margin: 30px 30px 30px 30px;
             text-align: justify;
-            color: $color-oscuro;  
-            font-family: dosis;  
-    
-    
+            color: $color-oscuro;
+            font-family: dosis;
+
+
         }
+
         &__imagen {
             height: 350px;
-             width: 70%;
-             border-radius: 10px;
+            width: 70%;
+            border-radius: 10px;
+
             &--alojamiento {
                 height: 400px;
                 width: 90%;
                 margin: 10px 10px 10px 10px;
                 border-radius: 5px;
             }
-    
+
         }
     }
+
     .alojamientos {
         display: flex;
         flex-direction: column;
         background-color: $color-encabezadoJujuy;
+
         &--salta {
             display: flex;
-        flex-direction: column;      
+            flex-direction: column;
             background-color: $color-encabezadoSalta;
         }
+
         &--tucuman {
             display: flex;
-        flex-direction: column;
-        
+            flex-direction: column;
+
             background-color: $color-encabezadoTucuman;
         }
+
         &--catamarca {
             display: flex;
-        flex-direction: column;
+            flex-direction: column;
             background-color: $color-encabezadoCatamarca;
         }
     }
+
     .alojamientos__titulo {
-        text-align: center;       
+        text-align: center;
         font-size: 40px;
         border: 1px solid $color-gris;
-        font-family: dosis;    
+        font-family: dosis;
         background-color: $color-encabezadoJujuy;
         margin-bottom: 0;
-        border:none;
-        color:$color-blanco;
+        border: none;
+        color: $color-blanco;
         padding: 30px 0 30px 0;
+
         &--salta {
             text-align: center;
             margin: 30px 0 30px 0;
             font-size: 40px;
             border: 1px solid $color-gris;
-            font-family: dosis;    
+            font-family: dosis;
             background-color: $color-encabezadoJujuy;
             margin-bottom: 0;
-            border:none;
-            color:$color-blanco;
+            border: none;
+            color: $color-blanco;
             padding: 30px 0 30px 0;
-           background-color: $color-encabezadoSalta; 
+            background-color: $color-encabezadoSalta;
         }
+
         &--tucuman {
             text-align: center;
-        margin: 30px 0 30px 0;
-        font-size: 40px;
-        border: 1px solid $color-gris;
-        font-family: dosis;    
-        background-color: $color-encabezadoJujuy;
-        margin-bottom: 0;
-        border:none;
-        color:$color-blanco;
-        padding: 30px 0 30px 0;
-            background-color: $color-encabezadoTucuman; 
-            color:$color-oscuro;
-    
+            margin: 30px 0 30px 0;
+            font-size: 40px;
+            border: 1px solid $color-gris;
+            font-family: dosis;
+            background-color: $color-encabezadoJujuy;
+            margin-bottom: 0;
+            border: none;
+            color: $color-blanco;
+            padding: 30px 0 30px 0;
+            background-color: $color-encabezadoTucuman;
+            color: $color-oscuro;
+
         }
+
         &--catamarca {
             text-align: center;
-        margin: 30px 0 30px 0;
-        font-size: 40px;
-        border: 1px solid $color-gris;
-        font-family: dosis;    
-        background-color: $color-encabezadoJujuy;
-        margin-bottom: 0;
-        border:none;
-        color:$color-blanco;
-        padding: 30px 0 30px 0;
-            background-color: $color-encabezadoCatamarca; 
-        }   
+            margin: 30px 0 30px 0;
+            font-size: 40px;
+            border: 1px solid $color-gris;
+            font-family: dosis;
+            background-color: $color-encabezadoJujuy;
+            margin-bottom: 0;
+            border: none;
+            color: $color-blanco;
+            padding: 30px 0 30px 0;
+            background-color: $color-encabezadoCatamarca;
+        }
     }
+
     .fotoAlojamientos {
         display: none;
     }
+
     .mapa {
         display: flex;
         flex-direction: column;
         align-items: center;
         background-color: $color-oscuro;
         padding-top: 20px;
-        
-        .mapa__titulo {        
+
+        .mapa__titulo {
             color: $color-blanco;
             font-family: dosis;
             padding: 10px 85px 10px 85px;
             margin: 0 !important;
             border: 1px solid $color-blanco;
         }
+
         .mapa__iframe {
             width: 80%;
             height: 500px;
-            padding: 20px 0 20px 0;    
+            padding: 20px 0 20px 0;
         }
     }
 
 }
 
 @media only screen and (min-width:1024px) {
-    *{
+    * {
         padding: 0;
-        margin:0;
-    
+        margin: 0;
+
     }
+
     .listaEncabezado {
         position: sticky;
-        top:75px;
+        top: 75px;
         z-index: 2;
+
         &__lista {
             display: flex;
             justify-content: center;
@@ -1121,11 +1240,13 @@
 
 
         }
-        &__item {
-            font-family: dosis;        
-          
 
-        }       
+        &__item {
+            font-family: dosis;
+
+
+        }
+
         &__enlace {
             text-decoration: none;
             font-size: 18px;
@@ -1133,14 +1254,16 @@
             margin: 0 30px 0 30px;
             padding: 12px 10px 12px 10px;
             transition: 0.8s;
+
             &--salta {
-            text-decoration: none;
-            font-size: 18px;
-            color: $color-blanco;
-            margin: 0 30px 0 30px;
-            padding: 12px 10px 12px 10px;
-            transition: 0.8s;
-            }  
+                text-decoration: none;
+                font-size: 18px;
+                color: $color-blanco;
+                margin: 0 30px 0 30px;
+                padding: 12px 10px 12px 10px;
+                transition: 0.8s;
+            }
+
             &--tucuman {
                 text-decoration: none;
                 font-size: 18px;
@@ -1149,7 +1272,8 @@
                 padding: 12px 10px 12px 10px;
                 transition: 0.8s;
 
-            }   
+            }
+
             &--catamarca {
                 text-decoration: none;
                 font-size: 18px;
@@ -1161,40 +1285,45 @@
             }
 
         }
+
         &__enlace:hover {
-            color:$color-oscuro;
-            background-color: $color-encabezadoJujuy;            
-            padding: 12px 10px 12px 10px;            
-            
-        }
-        &__enlace--salta:hover {
-            color:$color-oscuro;
-            background-color: $color-encabezadoSalta;            
-            padding: 12px 10px 12px 10px;  
-        }
-        &__enlace--tucuman:hover {
-            color:$color-oscuro;
-            background-color: $color-encabezadoTucuman;            
-            padding: 12px 10px 12px 10px;  
+            color: $color-oscuro;
+            background-color: $color-encabezadoJujuy;
+            padding: 12px 10px 12px 10px;
 
         }
+
+        &__enlace--salta:hover {
+            color: $color-oscuro;
+            background-color: $color-encabezadoSalta;
+            padding: 12px 10px 12px 10px;
+        }
+
+        &__enlace--tucuman:hover {
+            color: $color-oscuro;
+            background-color: $color-encabezadoTucuman;
+            padding: 12px 10px 12px 10px;
+
+        }
+
         &__enlace--catamarca:hover {
-            color:$color-oscuro;
-            background-color: $color-encabezadoCatamarca;            
-            padding: 12px 10px 12px 10px;  
+            color: $color-oscuro;
+            background-color: $color-encabezadoCatamarca;
+            padding: 12px 10px 12px 10px;
 
         }
 
     }
+
     /*JUJUY*/
-    /* Header */    
+    /* Header */
 
     .encabezadoMainJujuy {
         display: grid;
         grid-template-columns: 1fr 1fr;
         padding: 50px 0 50px 0;
-        background-color: $color-encabezadoJujuy;        
-    
+        background-color: $color-encabezadoJujuy;
+
         .encabezadoMainJujuy__divTexto {
             display: flex;
             flex-direction: column;
@@ -1203,62 +1332,69 @@
             grid-column: 1/2;
             margin: 0 30px 0 30px;
             color: $color-blanco;
-            font-family: dosis; 
+            font-family: dosis;
         }
+
         .encabezadoMainJujuy__subtitulo {
             margin: 30px 0 30px 0;
         }
+
         .encabezadoMainJujuy__texto {
             grid-column: 1/2;
             margin: 0 30px 0 30px;
             font-size: 17px;
         }
+
         .encabezadoMainJujuy__divImg {
             grid-column: 2/3;
             grid-row: 1/3;
             display: flex;
             justify-content: center;
             align-items: center;
-    
+
         }
+
         .encabezadoMainJujuy__img {
             width: 80%;
             height: auto;
-            border-radius: 5px;    
-            box-shadow: 10px 11px 16px -2px rgba(0,0,0,0.37);
--webkit-box-shadow: 10px 11px 16px -2px rgba(0,0,0,0.37);
--moz-box-shadow: 10px 11px 16px -2px rgba(0,0,0,0.37);     
+            border-radius: 5px;
+            box-shadow: 10px 11px 16px -2px rgba(0, 0, 0, 0.37);
+            -webkit-box-shadow: 10px 11px 16px -2px rgba(0, 0, 0, 0.37);
+            -moz-box-shadow: 10px 11px 16px -2px rgba(0, 0, 0, 0.37);
         }
-       
+
     }
+
     .divLogosFooterJujuy__textoInferior {
-        font-size: 15px;    
-        color:$color-encabezadoJujuy;
-        background-color: $color-oscuro;    
+        font-size: 15px;
+        color: $color-encabezadoJujuy;
+        background-color: $color-oscuro;
         font-family: dosis;
         text-align: center;
         padding: 15px 0 15px 0;
         margin: 0 !important;
     }
+
     /*Salta*/
     /* Header */
     .headerSalta {
         .headerSalta__div {
             border-bottom: 1px solid #9c9c9c;
         }
-    
+
         .headerSalta__span {
             color: $color-encabezadoSalta;
-    
-        }    
+
+        }
     }
+
     .encabezadoMainSalta {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        padding: 50px 0 50px 0;        
+        padding: 50px 0 50px 0;
         background-color: $color-encabezadoSalta;
-        
-    
+
+
         .encabezadoMainSalta__divTexto {
             display: flex;
             flex-direction: column;
@@ -1267,63 +1403,70 @@
             grid-column: 1/2;
             margin: 0 30px 0 30px;
             color: $color-blanco;
-            font-family: dosis; 
+            font-family: dosis;
             color: $color-blanco;
         }
+
         .encabezadoMainSalta__subtitulo {
             margin: 30px 0 30px 0;
         }
+
         .encabezadoMainSalta__texto {
             grid-column: 1/2;
             margin: 0 30px 0 30px;
             font-size: 17px;
         }
+
         .encabezadoMainSalta__divImg {
             grid-column: 2/3;
             grid-row: 1/3;
             display: flex;
             justify-content: center;
             align-items: center;
-    
+
         }
+
         .encabezadoMainSalta__img {
             width: 80%;
             height: auto;
-            border-radius: 5px;     
-            box-shadow: 10px 11px 16px -2px rgba(0,0,0,0.37);
--webkit-box-shadow: 10px 11px 16px -2px rgba(0,0,0,0.37);
--moz-box-shadow: 10px 11px 16px -2px rgba(0,0,0,0.37);     
+            border-radius: 5px;
+            box-shadow: 10px 11px 16px -2px rgba(0, 0, 0, 0.37);
+            -webkit-box-shadow: 10px 11px 16px -2px rgba(0, 0, 0, 0.37);
+            -moz-box-shadow: 10px 11px 16px -2px rgba(0, 0, 0, 0.37);
         }
-       
+
     }
+
     .divLogosFooterSalta__textoInferior {
-        font-size: 15px;    
-        color:$color-encabezadoSalta;
-        background-color: $color-oscuro;    
+        font-size: 15px;
+        color: $color-encabezadoSalta;
+        background-color: $color-oscuro;
         font-family: dosis;
         text-align: center;
         padding: 15px 0 15px 0;
         margin: 0 !important;
     }
+
     /*Tucuman*/
     /* Header */
     .headerTucuman {
         .headerTucuman__div {
             border-bottom: 1px solid #9c9c9c;
         }
-    
+
         .spanTucuman__div {
             color: $color-encabezadoTucuman;
-    
-        }    
+
+        }
     }
+
     .encabezadoMainTucuman {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        padding: 50px 0 50px 0;       
+        padding: 50px 0 50px 0;
         background-color: $color-encabezadoTucuman;
-        
-    
+
+
         .encabezadoMainTucuman__divTexto {
             display: flex;
             flex-direction: column;
@@ -1332,64 +1475,71 @@
             grid-column: 1/2;
             margin: 0 30px 0 30px;
             color: $color-blanco;
-            font-family: dosis; 
+            font-family: dosis;
             color: $color-oscuro;
         }
+
         .encabezadoMainTucuman__subtitulo {
             margin: 30px 0 30px 0;
         }
+
         .encabezadoMainTucuman__texto {
             grid-column: 1/2;
             margin: 0 30px 0 30px;
             font-size: 17px;
         }
+
         .encabezadoMainTucuman__divImg {
             grid-column: 2/3;
             grid-row: 1/3;
             display: flex;
             justify-content: center;
-            align-items: center;;
-    
+            align-items: center;
+            ;
+
         }
+
         .encabezadoMainTucuman__img {
             width: 80%;
             height: auto;
-            border-radius: 5px;                
-            box-shadow: 10px 11px 16px -2px rgba(0,0,0,0.37);
--webkit-box-shadow: 10px 11px 16px -2px rgba(0,0,0,0.37);
--moz-box-shadow: 10px 11px 16px -2px rgba(0,0,0,0.37);
+            border-radius: 5px;
+            box-shadow: 10px 11px 16px -2px rgba(0, 0, 0, 0.37);
+            -webkit-box-shadow: 10px 11px 16px -2px rgba(0, 0, 0, 0.37);
+            -moz-box-shadow: 10px 11px 16px -2px rgba(0, 0, 0, 0.37);
         }
-       
+
     }
+
     .divLogosFooterTucuman__textoInferior {
-        font-size: 15px;    
-        color:$color-encabezadoTucuman;
-        background-color: $color-oscuro;    
+        font-size: 15px;
+        color: $color-encabezadoTucuman;
+        background-color: $color-oscuro;
         font-family: dosis;
         text-align: center;
         padding: 15px 0 15px 0;
         margin: 0 !important;
     }
-    
+
     /*Catamarca*/
     /* Header */
     .headerCatamarca {
         .headerCatamarca__div {
             border-bottom: 1px solid #9c9c9c;
         }
-    
+
         .headerCatamarca__span {
             color: $color-encabezadoCatamarca;
-    
-        }    
+
+        }
     }
+
     .encabezadoMainCatamarca {
         display: grid;
         grid-template-columns: 1fr 1fr;
-        padding: 50px 0 50px 0;        
+        padding: 50px 0 50px 0;
         background-color: $color-encabezadoCatamarca;
-        
-    
+
+
         .encabezadoMainCatamarca__divTexto {
             display: flex;
             flex-direction: column;
@@ -1398,107 +1548,118 @@
             grid-column: 1/2;
             margin: 0 30px 0 30px;
             color: $color-blanco;
-            font-family: dosis; 
+            font-family: dosis;
             color: $color-blanco;
         }
+
         .encabezadoMainCatamarca__subtitulo {
             margin: 30px 0 30px 0;
         }
+
         .encabezadoMainCatamarca__texto {
             grid-column: 1/2;
             margin: 0 30px 0 30px;
             font-size: 17px;
         }
+
         .encabezadoMainCatamarca__divImg {
             grid-column: 2/3;
             grid-row: 1/3;
             display: flex;
             justify-content: center;
             align-items: center;
-    
+
         }
+
         .encabezadoMainCatamarca__img {
             width: 80%;
             height: auto;
-            border-radius: 5px;               
-            bbox-shadow: 10px 11px 16px -2px rgba(0,0,0,0.37);
-            -webkit-box-shadow: 10px 11px 16px -2px rgba(0,0,0,0.37);
-            -moz-box-shadow: 10px 11px 16px -2px rgba(0,0,0,0.37);     
+            border-radius: 5px;
+            bbox-shadow: 10px 11px 16px -2px rgba(0, 0, 0, 0.37);
+            -webkit-box-shadow: 10px 11px 16px -2px rgba(0, 0, 0, 0.37);
+            -moz-box-shadow: 10px 11px 16px -2px rgba(0, 0, 0, 0.37);
         }
-       
+
     }
+
     .divLogosFooterCatamarca__textoInferior {
-        font-size: 15px;    
-        color:$color-encabezadoCatamarca;
-        background-color: $color-oscuro;    
+        font-size: 15px;
+        color: $color-encabezadoCatamarca;
+        background-color: $color-oscuro;
         font-family: dosis;
         text-align: center;
         padding: 15px 0 15px 0;
         margin: 0 !important;
     }
+
     .section__titulo {
         display: flex;
         align-items: center;
         justify-content: center;
-        text-align: center;        
-        font-size: 40px;        
+        text-align: center;
+        font-size: 40px;
         font-family: dosis;
-        margin-bottom: 40px;             
+        margin-bottom: 40px;
         height: 100px;
         background-color: $color-oscuro;
-        color: $color-blanco;      
-        
-    
+        color: $color-blanco;
+
+
     }
+
     .section {
         display: grid;
         grid-template-rows: 1fr 1fr 1fr;
-        grid-template-columns: 1fr 1fr;           
-        width: auto; 
+        grid-template-columns: 1fr 1fr;
+        width: auto;
         grid-column-gap: 20px;
 
-    }    
-    .article { 
-        margin: 20px auto 20px  auto; 
+    }
+
+    .article {
+        margin: 20px auto 20px auto;
         display: flex;
         flex-direction: column;
-        align-items: center;  
-        position: relative;        
+        align-items: center;
+        position: relative;
         background-color: $color-grisClaro;
-        border-radius: 10px; 
+        border-radius: 10px;
         padding-bottom: 50px;
         width: 95%;
         text-align: center;
+
         &--atractivosTuristicos {
-            margin: 20px auto 20px  auto;  
+            margin: 20px auto 20px auto;
             display: flex;
             flex-direction: column;
-            align-items: center;  
-            position: relative;        
+            align-items: center;
+            position: relative;
             background-color: $color-grisClaro;
             border-radius: 10px;
             width: 95%;
-        }      
-       
-        
-        &__subtitulo{
+        }
+
+
+        &__subtitulo {
             color: $color-blanco;
             background-color: $color-encabezadoJujuy;
             padding: 10px 20px 10px 20px;
             border-radius: 10px;
             margin: 10px 0 10px 0;
             font-family: dosis;
-            box-shadow: 2px 2px 2px rgb(131, 131, 131); 
+            box-shadow: 2px 2px 2px rgb(131, 131, 131);
+
             &--salta {
                 color: $color-blanco;
                 background-color: $color-encabezadoJujuy;
                 padding: 10px 20px 10px 20px;
                 border-radius: 10px;
                 margin: 10px 0 10px 0;
-                font-family: dosis; 
+                font-family: dosis;
                 box-shadow: 2px 2px 2px rgb(131, 131, 131);
                 background-color: $color-encabezadoSalta;
             }
+
             &--tucuman {
                 color: $color-blanco;
                 background-color: $color-encabezadoJujuy;
@@ -1506,197 +1667,219 @@
                 border-radius: 10px;
                 margin: 10px 0 10px 0;
                 box-shadow: 2px 2px 2px rgb(131, 131, 131);
-                font-family: dosis; 
-            background-color: $color-encabezadoTucuman;
-            color: $color-oscuro
+                font-family: dosis;
+                background-color: $color-encabezadoTucuman;
+                color: $color-oscuro
             }
+
             &--catamarca {
                 color: $color-blanco;
-            background-color: $color-encabezadoJujuy;
-            padding: 10px 20px 10px 20px;
-            border-radius: 10px;
-            margin: 10px 0 10px 0;
-            box-shadow: 2px 2px 2px rgb(131, 131, 131);
-            font-family: dosis; 
-            background-color: $color-encabezadoCatamarca;
-        
-                }
+                background-color: $color-encabezadoJujuy;
+                padding: 10px 20px 10px 20px;
+                border-radius: 10px;
+                margin: 10px 0 10px 0;
+                box-shadow: 2px 2px 2px rgb(131, 131, 131);
+                font-family: dosis;
+                background-color: $color-encabezadoCatamarca;
+
+            }
         }
-        &__boton {           
+
+        &__boton {
             position: absolute;
             bottom: 2%;
             font-family: dosis;
             font-size: 20px;
-            letter-spacing:.5px;
+            letter-spacing: .5px;
             transition: 0.5s;
-            }
-         &__boton:hover {
-                opacity: 0.8;
-                transform: scale(1.05);
-                
-            }
+        }
+
+        &__boton:hover {
+            opacity: 0.8;
+            transform: scale(1.05);
+
+        }
+
         &__texto {
             margin: 30px 30px 30px 30px;
             text-align: justify;
-            color: $color-oscuroSecundario;  
+            color: $color-oscuroSecundario;
             font-family: dosis;
-            font-size: 18px; 
+            font-size: 18px;
 
-            
-    
+
+
         }
+
         &__imagen {
             width: 90%;
-            height:400px;
+            height: 400px;
             border-radius: 10px;
+
             &--alojamiento {
                 height: 300px;
                 width: 90%;
                 margin: 10px 10px 10px 10px;
                 border-radius: 5px;
             }
-    
+
         }
     }
+
     .alojamientos {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 1fr 1fr ;
+        grid-template-rows: 1fr 1fr;
         background-color: $color-oscuroSecundario;
-        justify-content: center;        
+        justify-content: center;
+
         &--salta {
             display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 1fr 1fr ;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-rows: 1fr 1fr;
             background-color: $color-oscuroSecundario;
         }
+
         &--tucuman {
             display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 1fr 1fr ;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-rows: 1fr 1fr;
             background-color: $color-oscuroSecundario;
         }
+
         &--catamarca {
             display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        grid-template-rows: 1fr 1fr ;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-rows: 1fr 1fr;
             background-color: $color-oscuroSecundario;
         }
     }
+
     .alojamientos__titulo {
         text-align: center;
         margin: 30px 0 30px 0;
         font-size: 40px;
         border: 1px solid $color-gris;
-        font-family: dosis;    
+        font-family: dosis;
         background-color: $color-encabezadoJujuy;
         margin-bottom: 0;
-        border:none;
-        color:$color-blanco;
+        border: none;
+        color: $color-blanco;
         padding: 30px 0 30px 0;
+
         &--salta {
             text-align: center;
             margin: 30px 0 30px 0;
             font-size: 40px;
             border: 1px solid $color-gris;
-            font-family: dosis;    
+            font-family: dosis;
             background-color: $color-encabezadoJujuy;
             margin-bottom: 0;
-            border:none;
-            color:$color-blanco;
+            border: none;
+            color: $color-blanco;
             padding: 30px 0 30px 0;
-           background-color: $color-encabezadoSalta; 
+            background-color: $color-encabezadoSalta;
         }
+
         &--tucuman {
             text-align: center;
-        margin: 30px 0 30px 0;
-        font-size: 40px;
-        border: 1px solid $color-gris;
-        font-family: dosis;    
-        background-color: $color-encabezadoJujuy;
-        margin-bottom: 0;
-        border:none;
-        color:$color-blanco;
-        padding: 30px 0 30px 0;
-            background-color: $color-encabezadoTucuman; 
-            color:$color-oscuro;
-    
+            margin: 30px 0 30px 0;
+            font-size: 40px;
+            border: 1px solid $color-gris;
+            font-family: dosis;
+            background-color: $color-encabezadoJujuy;
+            margin-bottom: 0;
+            border: none;
+            color: $color-blanco;
+            padding: 30px 0 30px 0;
+            background-color: $color-encabezadoTucuman;
+            color: $color-oscuro;
+
         }
+
         &--catamarca {
             text-align: center;
-        margin: 30px 0 30px 0;
-        font-size: 40px;
-        border: 1px solid $color-gris;
-        font-family: dosis;    
-        background-color: $color-encabezadoJujuy;
-        margin-bottom: 0;
-        border:none;
-        color:$color-blanco;
-        padding: 30px 0 30px 0;
-            background-color: $color-encabezadoCatamarca; 
-        }   
+            margin: 30px 0 30px 0;
+            font-size: 40px;
+            border: 1px solid $color-gris;
+            font-family: dosis;
+            background-color: $color-encabezadoJujuy;
+            margin-bottom: 0;
+            border: none;
+            color: $color-blanco;
+            padding: 30px 0 30px 0;
+            background-color: $color-encabezadoCatamarca;
+        }
     }
-    .divFotoAlojamientos {  
-                   
-        margin: 20px auto 20px  auto; 
+
+    .divFotoAlojamientos {
+
+        margin: 20px auto 20px auto;
         display: flex;
         flex-direction: column;
-        align-items: center;          
-        border-radius: 10px;         
-        width: 95%;         
-        background-image: url(../img/fotoJujuy.jpg); 
-        background-size: cover;    
-        opacity: 0.7;     
-        transition: .8s;
-        &--salta {
-            margin: 20px auto 20px  auto; 
-        display: flex;
-        flex-direction: column;
-        align-items: center;          
-        border-radius: 10px;         
-        width: 95%;         
-        background-image: url(../img/fotoSalta.jpg); 
-        background-size: cover;    
-        opacity: 0.7;     
+        align-items: center;
+        border-radius: 10px;
+        width: 95%;
+        background-image: url(../img/fotoJujuy.jpg);
+        background-size: cover;
+        opacity: 0.7;
         transition: .8s;
 
-        } 
-        &--tucuman {
-            margin: 20px auto 20px  auto; 
+        &--salta {
+            margin: 20px auto 20px auto;
             display: flex;
             flex-direction: column;
-            align-items: center;          
-            border-radius: 10px;         
-            width: 95%;         
-            background-image: url(../img/fotoTucuman.jpg); 
-            background-size: cover;    
-            opacity: 0.7;     
+            align-items: center;
+            border-radius: 10px;
+            width: 95%;
+            background-image: url(../img/fotoSalta.jpg);
+            background-size: cover;
+            opacity: 0.7;
             transition: .8s;
 
-        }  
-        &--catamarca {
-            margin: 20px auto 20px  auto; 
+        }
+
+        &--tucuman {
+            margin: 20px auto 20px auto;
             display: flex;
             flex-direction: column;
-            align-items: center;          
-            border-radius: 10px;         
-            width: 95%;         
-            background-image: url(../img/fotoCatamarca.jpg); 
-            background-size: cover;    
-            opacity: 0.7;     
-            transition: .8s;   
+            align-items: center;
+            border-radius: 10px;
+            width: 95%;
+            background-image: url(../img/fotoTucuman.jpg);
+            background-size: cover;
+            opacity: 0.7;
+            transition: .8s;
+
         }
-        
-    }    
+
+        &--catamarca {
+            margin: 20px auto 20px auto;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            border-radius: 10px;
+            width: 95%;
+            background-image: url(../img/fotoCatamarca.jpg);
+            background-size: cover;
+            opacity: 0.7;
+            transition: .8s;
+        }
+
+    }
+
     .divFotoAlojamientos:hover {
         opacity: 1;
     }
+
     .divFotoAlojamientos--salta:hover {
         opacity: 1;
     }
+
     .divFotoAlojamientos--tucuman:hover {
         opacity: 1;
     }
+
     .divFotoAlojamientos--catamarca:hover {
         opacity: 1;
     }
@@ -1708,19 +1891,20 @@
         align-items: center;
         background-color: $color-oscuro;
         padding-top: 20px;
-        
-        .mapa__titulo {        
+
+        .mapa__titulo {
             color: $color-blanco;
             font-family: dosis;
             padding: 10px 85px 10px 85px;
             margin: 0 !important;
             border: 1px solid $color-blanco;
         }
+
         .mapa__iframe {
             width: 75%;
-            padding: 20px 0 20px 0;    
+            padding: 20px 0 20px 0;
         }
     }
-        
+
 
 }
