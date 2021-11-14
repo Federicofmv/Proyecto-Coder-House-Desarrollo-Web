@@ -1,321 +1,414 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Turismo Norte Argentino</title>
-    <link href="https://fonts.googleapis.com/css2?family=Arvo&family=Cairo:wght@600&family=Pattaya&display=swap"
-        rel="stylesheet">      
-    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@300&display=swap" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/style.css">    
-</head> 
-<body>     
-    <header class="header sticky-top" name="top">      
-        <!--Navbar bootstrap-->  
-        <section> 
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-          <div class="container-fluid">
-            <a class="navbar-brand m-e-0" href="index.html">
-              Turismo Noa
-            </a>
-            <a class="navbar-brand" href="index.html">
-              <img src="img/montana-del-arco-iris.png" alt="" width="50" height="50">
-            </a>            
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="Jujuy.html">Jujuy</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="Salta.html">Salta</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="Tucuman.html">Tucumán</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="Catamarca.html">Catamarca</a>
-                </li> 
-                <li class="nav-item">
-                  <a class="nav-link" href="Contacto.html">Contacto</a>
-                </li>                  
-                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <li><a class="dropdown-item" href="#">Action</a></li>
-                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                    <li><hr class="dropdown-divider"></li>
-                    <li><a class="dropdown-item" href="#">Something else here</a></li>
-                  </ul>
-                </li>                
-              </ul>              
-            </div>
-          </div>
-        </nav>            
-        <!--Fin Navbar bootstrap-->    
-        </header>
-    <main>      
-      <div class="mainLeyenda">
-      <div class="mainLeyenda__div container-fluid p-5  bg-dark text-white">                         
-        <h1 class="mainLeyenda__titulo">Hola, bienvenido a <span class="mainLeyenda__span">Turismo Norte Argentino</span></h1>            
-      </div>
-      </div>
-        <!-- Encabezado main con metodologia bem-->
-        <div class="encabezadoMain">
-            <div class="encabezadoMain__divTexto">
-            <h2 class="encabezadoMain__subtitulo">Conocé el Norte Argentino</h2>  
-            <p class="encabezadoMain__texto">No te pierdas de conocer y viajar al norte argentino, una de las regiones más hermosas del país. Además de recorrer increíbles paisajes de montaña, valles fértiles, quebradas y yungas, se puede entrar en contacto con las culturas autóctonas de esta región y conocer pueblos que aún mantienen las tradiciones ancestrales. Además, muchos lugares nos retrotraen a la época de la colonización hispana. En ciudades como Salta o San Miguel de Tucumán, se pueden apreciar muchas de estas construcciones de la época de la colonia.
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description"
+    content="En esta pagina otorgamos información turistica básica sobre las provincias de jujuy,salta,tucuman y catamarca">
+  <meta name="keywords"
+    content="norte argentino, turismo norte argentino, noroeste argentino, turismo salta, turismo jujuy, turismo catamarca, turismo tucuman" />
+  <title>Turismo Norte Argentino</title>
+  <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+  <link href="https://fonts.googleapis.com/css2?family=Arvo&family=Cairo:wght@600&family=Pattaya&display=swap"
+    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@300&display=swap" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css">
+  <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+/>
+</head>
 
-              Se puede comenzar el itinerario por Tucumán, en donde además de la ciudad, no se puede dejar de conocer Tafí del Valle, con las Sierras del Aconquija, y el río que lo atraviesa.              
-              En Salta capital se puede visitar la Catedral, el Convento de San Bernardo, la Virgen del Cerro y la Villa de San Lorenzo, entre otras cosas.             
-              Tampoco nos podemos perder de viajar a Jujuy y conocer el circuito de la Quebrada de Humahuaca, que combina en sus 170 kilómetros la belleza natural junto con la tradición y la cultura aborigen. El primer poblado para visitar es Purmamarca, considerado el más rico en belleza por albergar el famoso Cerro de los Siete Colores. Se puede continuar por Tilcara, visitar el Pucará y la Garganta del Diablo; y en Humahuaca, visitar la Iglesia Nuestra Señora de la Candelaria (data de 1641), el Cabildo y las ruinas arqueológicas de Coctaca.
- </p>
-            </div>    
-            <div class="encabezadoMain__divImg">
-                <img class="encabezadoMain__img" src="img/maparegiones1.png" alt="">
-            </div>               
-        </div>
-        <div class="encabezadoMain__barraInferior">
-          <p></p>
-        </div> 
-        <!-- fin encabezado main con metodologia bem -->           
-        <div class="container">
-        <div class="row">  
-        <div class="col-md-12 col-lg-6">  
-            <section class="sectionHome border">            
-                <a class="sectionHome__enlace" href="Jujuy.html"> <h3 class="sectionHome__subtitulos--jujuy">
-                    Jujuy
-                </h3>
-                </a>
-                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-                    <div class="carousel-indicators">
-                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                    </div>
-                    <div class="carousel-inner">
-                      <div class="carousel-item active">
-                        <img src="img/jujuy.jpg" class="d-block w-100" alt="...">
-                      </div>
-                      <div class="carousel-item">
-                        <img src="img/atractivosJujuy/Purmamarca.jpg" class="d-block w-100" alt="...">
-                      </div>
-                      <div class="carousel-item">
-                        <img src="img/atractivosJujuy/Salinas grandes.jpg" class="d-block w-100" alt="...">
-                      </div>
-                    </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                      <span class="visually-hidden">Previous</span>
-                    </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                      <span class="visually-hidden">Next</span>
-                    </button>
-                  </div>               
-                <p class="sectionHome__texto mt-4">Jujuy es una de las 23 provincias de la República Argentina y se ubica al noroeste del país. Cuenta con una población de 673.307 habitantes (2010), una superficie de 53.291 km² y una densidad poblacional de 12,7 hab./km². Limita al oeste con la República de Chile hasta el trifinio cerro Zapaleri, donde comienza su frontera con el Estado Plurinacional de Bolivia (hacia el norte), y al este y sur con la Provincia de Salta. Su capital y ciudad más poblada es San Salvador de Jujuy mientras que ciudades como San Pedro de Jujuy, Palpalá, Perico y Libertador General San Martín también son importantes centros de población. Su economía representa el 1,1% del PBI Nacional y su territorio representa el 1,68% de la superficie nacional y es la cuarta jurisdicción de primer orden menos extensa, por delante de Misiones, Tucumán y la Ciudad de Buenos Aires.
-                </p>
-            </section> 
-        </div>  
-        <div class="col-md-12 col-lg-6">       
-            <section  class="sectionHome border">
-                <a class="sectionHome__enlace" href="Salta.html"><h3 class="sectionHome__subtitulos--salta">
-                    Salta
-                </h3>
-            </a> 
-                <div id="carouselExampleIndicators2" class="carousel slide" data-bs-ride="carousel">
-                    <div class="carousel-indicators">
-                      <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                      <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                      <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                    </div>
-                    <div class="carousel-inner">
-                      <div class="carousel-item active">
-                        <img src="img/salta.jpg" class="d-block w-100" alt="...">
-                      </div>
-                      <div class="carousel-item">
-                        <img src="img/atractivosSalta/cafayate.jpg" class="d-block w-100" alt="...">
-                      </div>
-                      <div class="carousel-item">
-                        <img src="img/atractivosSalta/iruya.jpg" class="d-block w-100" alt="...">
-                      </div>
-                    </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide="prev">
-                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                      <span class="visually-hidden">Previous</span>
-                    </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide="next">
-                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                      <span class="visually-hidden">Next</span>
-                    </button>
-                  </div> 
-                <p class="sectionHome__texto mt-4">Salta, oficialmente Provincia de Salta (tal y como figura en su Constitución provincial), es una de las 23 provincias de la República Argentina. A su vez, es uno de los 24 estados autogobernados o jurisdicciones de primer orden que conforman el país, y uno de los 24 distritos electorales legislativos nacionales. Su capital es la homónima Salta. Está ubicada al noroeste del país, N.O.A. , limitando al norte con la Provincia de Jujuy y con el Departamento de Potosí y el Departamento de Tarija en Bolivia hasta el trifinio Hito Esmeralda, donde comienza su frontera con el Departamento de Boquerón en Paraguay (hacia el noreste), al este con Formosa y Chaco, al sur con Santiago del Estero, Tucumán y Catamarca, y al oeste con la Región de Antofagasta en Chile. Con 155 488 km² es la sexta jurisdicción de primer orden más extensa, por detrás de la Provincia de Buenos Aires, Santa Cruz, Chubut, Río Negro y Córdoba.
-                </p>
-            </section>
-        </div>
-        </div>
-        <div class="row"> 
-            <div class="col-md-12 col-lg-6">     
-            <section  class="sectionHome border">
-                <a class="sectionHome__enlace" href="Tucuman.html">
-                <h3 class="sectionHome__subtitulos--tucuman">
-                    Tucuman
-                </h3>
-                 </a>
-                <div id="carouselExampleIndicators3" class="carousel slide" data-bs-ride="carousel">
-                    <div class="carousel-indicators">
-                      <button type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                      <button type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                      <button type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                    </div>
-                    <div class="carousel-inner">
-                      <div class="carousel-item active">
-                        <img src="img/tucuman.jpeg" class="d-block w-100" alt="...">
-                      </div>
-                      <div class="carousel-item">
-                        <img src="img/atractivosTucuman/ruinas de quilmes.jpg" class="d-block w-100" alt="...">
-                      </div>
-                      <div class="carousel-item">
-                        <img src="img/atractivosTucuman/tafi del valle.jpg" class="d-block w-100" alt="...">
-                      </div>
-                    </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide="prev">
-                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                      <span class="visually-hidden">Previous</span>
-                    </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide="next">
-                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                      <span class="visually-hidden">Next</span>
-                    </button>
-                  </div> 
-                <p class="sectionHome__texto  mt-4">La Provincia de Tucumán —tal como figura en su Constitución provincial— es una de las 23 provincias que hay en la República Argentina. A su vez, es uno de los 24 estados autogobernados o jurisdicciones de primer orden que conforman el país, y uno de los 24 distritos electorales legislativos nacionales. Su capital es San Miguel de Tucumán. Está ubicada en el noroeste del país, en la región del Norte Grande Argentino, limitando al norte con Salta, al este con Santiago del Estero y al sur y oeste con Catamarca. Con 22 524 km² es la segunda jurisdicción de primer orden menos extensa, por detrás de la Ciudad Autónoma de Buenos Aires (CABA).
-                  Fue escenario del Congreso de Tucumán entre los años 1816 y 1820 que, entre otras cosas, declaró la Independencia de las Provincias Unidas del Sud (primer nombre oficial del Estado soberano llamado Argentina) respecto a España y cualquier otro poder extranjero, el 9 de julio de 1816. Es la provincia de menor superficie de la Argentina y la de mayor densidad de población del país. Tucumán fue sede de los festejos del Bicentenario por los 200 años de la Declaración de independencia de la Argentina.
-                  
-                </p>           
-            </section>
-        </div> 
-        <div class="col-md-12 col-lg-6">
-            <section  class="sectionHome border">
-                <a class="sectionHome__enlace" href="Catamarca.html">
-                <h3 class="sectionHome__subtitulos--catamarca">
-                    Catamarca
-                </h3>
-            </a>
-                <div id="carouselExampleIndicators4" class="carousel slide" data-bs-ride="carousel">
-                    <div class="carousel-indicators">
-                      <button type="button" data-bs-target="#carouselExampleIndicators4" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                      <button type="button" data-bs-target="#carouselExampleIndicators4" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                      <button type="button" data-bs-target="#carouselExampleIndicators4" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                    </div>
-                    <div class="carousel-inner">
-                      <div class="carousel-item active">
-                        <img src="img/catamarca.jpg" class="d-block w-100" alt="...">
-                      </div>
-                      <div class="carousel-item">
-                        <img src="img/atractivosCatamarca/Antofagasta de la sierra.jpg" class="d-block w-100" alt="...">
-                      </div>
-                      <div class="carousel-item">
-                        <img src="img/atractivosCatamarca/Fiambala.jpg" class="d-block w-100" alt="...">
-                      </div>
-                    </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators4" data-bs-slide="prev">
-                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                      <span class="visually-hidden">Previous</span>
-                    </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators4" data-bs-slide="next">
-                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                      <span class="visually-hidden">Next</span>
-                    </button>
-                  </div> 
-                
-                <p class="sectionHome__texto mt-4">Catamarca es una de las 23 provincias en las que está dividida la República Argentina.Su capital y ciudad más poblada es San Fernando del Valle de Catamarca.
-                  Está ubicada al noroeste del país, en la región del Norte Grande Argentino, limitando al norte con Salta, al este con Tucumán y Santiago del Estero, al sureste con Córdoba, al sur con La Rioja y al oeste con Chile, cuyo límite está determinado por la divisoria de agua de la cordillera de los Andes. Con 368 000 habitantes en 2010 es la quinta provincia menos poblada.
-                  Fue habitada por la población nativa de la región durante varios milenios hasta la intervención de los conquistadores españoles a mediados del siglo XVII, y desde entonces ha recibido varios grupos de inmigrantes, especialmente españoles, aunque a diferencia de otras provincias argentinas, estos no han superado a la población originaria; y de la mezcla de ambos grupos surgió la actual población de la provincia, compuesta principalmente por mestizos.
-                  Su economía es una de las más diversificadas del país, ocupándose fundamentalmente de la minería, la industria, el comercio, el turismo, la ganadería y la agricultura. Además ocupa el puesto puesto número 12 en el ranking de desarrollo humano de las jurisdicciones de primer orden argentinas.
-
-                  
-                </p>
-            </section>
-        </div> 
-        </div>
-        </div>       
-        </main>
-        <footer>
-          <!-- footer metodologia bem -->
-          <div class="listasFooter">   
-          <div class="agruparListasFooter">                  
-            <section class="linksUtilesFooter">              
-              <h4 class="linksUtilesFooter__subtitulo">Sitios relacionados</h4>
-              <ul class="linksUtilesFooter__lista">               
+<body>
+  <header class="header sticky-top" name="top">
+    <!--Navbar bootstrap-->
+    <section>
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand m-e-0" href="index.html">
+            Turismo Noa
+          </a>
+          <a class="navbar-brand" href="index.html">
+            <img src="img/montana-del-arco-iris.png" alt="" width="50" height="50">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Jujuy.html">Jujuy</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Salta.html">Salta</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Tucuman.html">Tucumán</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Catamarca.html">Catamarca</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Contacto.html">Contacto</a>
+              </li>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
                 <li>
-                  <a class="linksUtilesFooter__link" href="http://www.argentinaviajera.com.ar/">Argentina Viajera</a>                  
+                  <hr class="dropdown-divider">
                 </li>
-                <li>
-                  <a class="linksUtilesFooter__link" href="https://www.tripadvisor.com.ar/Tourism-g312811-Northern_Argentina-Vacations.html">TripAdvisor</a>                  
-                </li>
-                <li>
-                  <a class="linksUtilesFooter__link" href="https://www.argentinaturismo.com.ar/">Argentina Turismo</a>                  
-                </li>
-                <li>
-                  <a class="linksUtilesFooter__link" href="https://www.argentina.gob.ar/turismoydeportes">Ministerio de Turismo y Deportes</a> 
-                </li>
-                <li>
-                  <a class="linksUtilesFooter__link" href="https://www.argentina.tur.ar/#!/ar/home">Turismo Argentina</a> 
-                </li>
-                </ul>
-              </section>
-            <section class="mapaDelSitioFooter">
-              <h4 class="mapaDelSitioFooter__subtitulo">Mapa del Sitio</h4>
-              <ul class="mapaDelSitioFooter__lista">                
-                <li>
-                  <a class="mapaDelSitioFooter__link" href="Jujuy.html">Provincia de Jujuy</a>                
-                </li>
-                <li>
-                  <a class="mapaDelSitioFooter__link" href="Salta.html">Provincia de Salta</a> 
-                </li>
-                <li>
-                  <a class="mapaDelSitioFooter__link" href="Tucuman.html">Provincia de Tucumán</a>                
-                </li>
-                <li>
-                  <a class="mapaDelSitioFooter__link" href="Catamarca.html">Provincia de Catamarca</a> 
-                </li>
-                <li>
-                  <a class="mapaDelSitioFooter__link" href="Contacto.html">Contactanos</a> 
-                </li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
               </ul>
-            </section> 
-          </div>  
-            <section class="MensajeFooter"> 
-              <div class="MensajeFooter__centrar">
-                <p class="MensajeFooter__texto" >No dejes de conocer una de las regiones mas increibles de la República Argentina</p>
-                <img src="img/montana-del-arco-iris.png" alt="" width="70" height="70">
-              </div>               
-            </section>  
-          </div>            
-            <div class="divLogosFooter">             
-            <div class="divLogosFooter__centrarLogo">
-            <a class="divLogosFooter__enlace" href="">                               
-                <img class="divLogosFooter__logo" src="img/whatsapp.png" alt="logoWhatsapp">                
-            </a>          
-            <a class="divLogosFooter__enlace" href="">             
-                <img class="divLogosFooter__logo" src="img/instagram.png" alt="logoInstagram">                
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!--Fin Navbar bootstrap-->
+  </header>
+  <main>
+    <div class="mainLeyenda">
+      <div class="mainLeyenda__div container-fluid p-5  bg-dark text-white">
+        <h1 class="mainLeyenda__titulo">Hola, bienvenido a <span class="mainLeyenda__span">Turismo Norte
+            Argentino</span></h1>
+      </div>
+    </div>
+    <!-- Encabezado main con metodologia bem-->
+    <div class="encabezadoMain">
+      <div class="encabezadoMain__divTexto">
+        <h2 class="encabezadoMain__subtitulo">Conocé el Norte Argentino</h2>
+        <p class="encabezadoMain__texto">No te pierdas de conocer y viajar al norte argentino, una de las regiones más
+          hermosas del país. Además de recorrer increíbles paisajes de montaña, valles fértiles, quebradas y yungas, se
+          puede entrar en contacto con las culturas autóctonas de esta región y conocer pueblos que aún mantienen las
+          tradiciones ancestrales. Además, muchos lugares nos retrotraen a la época de la colonización hispana. En
+          ciudades como Salta o San Miguel de Tucumán, se pueden apreciar muchas de estas construcciones de la época de
+          la colonia.
+
+          Se puede comenzar el itinerario por Tucumán, en donde además de la ciudad, no se puede dejar de conocer Tafí
+          del Valle, con las Sierras del Aconquija, y el río que lo atraviesa.
+          En Salta capital se puede visitar la Catedral, el Convento de San Bernardo, la Virgen del Cerro y la Villa de
+          San Lorenzo, entre otras cosas.
+          Tampoco nos podemos perder de viajar a Jujuy y conocer el circuito de la Quebrada de Humahuaca, que combina en
+          sus 170 kilómetros la belleza natural junto con la tradición y la cultura aborigen. El primer poblado para
+          visitar es Purmamarca, considerado el más rico en belleza por albergar el famoso Cerro de los Siete Colores.
+          Se puede continuar por Tilcara, visitar el Pucará y la Garganta del Diablo; y en Humahuaca, visitar la Iglesia
+          Nuestra Señora de la Candelaria (data de 1641), el Cabildo y las ruinas arqueológicas de Coctaca.
+        </p>
+      </div>
+      <div class="encabezadoMain__divImg">
+        <img class="encabezadoMain__img" src="img/maparegiones1.png" alt="">
+      </div>
+    </div>
+    <div class="encabezadoMain__barraInferior">
+      <p></p>
+    </div>
+    <!-- fin encabezado main con metodologia bem -->
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 col-lg-6">
+          <section class="sectionHome border">
+            <a class="sectionHome__enlace" href="Jujuy.html">
+              <h3 class="sectionHome__subtitulos--jujuy">
+                Jujuy
+              </h3>
             </a>
-            <a class="divLogosFooter__enlace" href="">            
-            <img class="divLogosFooter__logo" src="img/facebook.png" alt="logoFacebook">            
+            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                  aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                  aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                  aria-label="Slide 3"></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="img/jujuy.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="img/atractivosJujuy/Purmamarca.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="img/atractivosJujuy/Salinas grandes.jpg" class="d-block w-100" alt="...">
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+            <p class="sectionHome__texto mt-4" >Jujuy es una de las 23 provincias de la República Argentina y se ubica al
+              noroeste del país. Cuenta con una población de 673.307 habitantes (2010), una superficie de 53.291 km² y
+              una densidad poblacional de 12,7 hab./km². Limita al oeste con la República de Chile hasta el trifinio
+              cerro Zapaleri, donde comienza su frontera con el Estado Plurinacional de Bolivia (hacia el norte), y al
+              este y sur con la Provincia de Salta. Su capital y ciudad más poblada es San Salvador de Jujuy mientras
+              que ciudades como San Pedro de Jujuy, Palpalá, Perico y Libertador General San Martín también son
+              importantes centros de población. Su economía representa el 1,1% del PBI Nacional y su territorio
+              representa el 1,68% de la superficie nacional y es la cuarta jurisdicción de primer orden menos extensa,
+              por delante de Misiones, Tucumán y la Ciudad de Buenos Aires.
+            </p>
+          </section>
+        </div>
+        <div class="col-md-12 col-lg-6">
+          <section class="sectionHome border">
+            <a class="sectionHome__enlace" href="Salta.html">
+              <h3 class="sectionHome__subtitulos--salta">
+                Salta
+              </h3>
             </a>
+            <div id="carouselExampleIndicators2" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="0" class="active"
+                  aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="1"
+                  aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide-to="2"
+                  aria-label="Slide 3"></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="img/salta.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="img/atractivosSalta/cafayate.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="img/atractivosSalta/iruya.jpg" class="d-block w-100" alt="...">
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators2"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators2"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
             </div>
-            </div> 
-            <div class="pieDeFooter">
-              <p class="pieDeFooter__texto">Copyright © Todos los derechos reservados -- Federico Villarreal</p>
+            <p class="sectionHome__texto mt-4">Salta, oficialmente Provincia de Salta (tal y como figura en su
+              Constitución provincial), es una de las 23 provincias de la República Argentina. A su vez, es uno de los
+              24 estados autogobernados o jurisdicciones de primer orden que conforman el país, y uno de los 24
+              distritos electorales legislativos nacionales. Su capital es la homónima Salta. Está ubicada al noroeste
+              del país, N.O.A. , limitando al norte con la Provincia de Jujuy y con el Departamento de Potosí y el
+              Departamento de Tarija en Bolivia hasta el trifinio Hito Esmeralda, donde comienza su frontera con el
+              Departamento de Boquerón en Paraguay (hacia el noreste), al este con Formosa y Chaco, al sur con Santiago
+              del Estero, Tucumán y Catamarca, y al oeste con la Región de Antofagasta en Chile. Con 155 488 km² es la
+              sexta jurisdicción de primer orden más extensa, por detrás de la Provincia de Buenos Aires, Santa Cruz,
+              Chubut, Río Negro y Córdoba.
+            </p>
+          </section>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12 col-lg-6">
+          <section class="sectionHome border">
+            <a class="sectionHome__enlace" href="Tucuman.html">
+              <h3 class="sectionHome__subtitulos--tucuman">
+                Tucuman
+              </h3>
+            </a>
+            <div id="carouselExampleIndicators3" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide-to="0" class="active"
+                  aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide-to="1"
+                  aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators3" data-bs-slide-to="2"
+                  aria-label="Slide 3"></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="img/tucuman.jpeg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="img/atractivosTucuman/ruinas de quilmes.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="img/atractivosTucuman/tafi del valle.jpg" class="d-block w-100" alt="...">
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators3"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators3"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
             </div>
-            <a id="Subir" href="#top"><img class="Subir__imagen" src="img/up-arrow.png" alt=""></a>                         
-        </footer>    
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
- 
+            <p class="sectionHome__texto  mt-4">La Provincia de Tucumán —tal como figura en su Constitución provincial—
+              es una de las 23 provincias que hay en la República Argentina. A su vez, es uno de los 24 estados
+              autogobernados o jurisdicciones de primer orden que conforman el país, y uno de los 24 distritos
+              electorales legislativos nacionales. Su capital es San Miguel de Tucumán. Está ubicada en el noroeste del
+              país, en la región del Norte Grande Argentino, limitando al norte con Salta, al este con Santiago del
+              Estero y al sur y oeste con Catamarca. Con 22 524 km² es la segunda jurisdicción de primer orden menos
+              extensa, por detrás de la Ciudad Autónoma de Buenos Aires (CABA).
+              Fue escenario del Congreso de Tucumán entre los años 1816 y 1820 que, entre otras cosas, declaró la
+              Independencia de las Provincias Unidas del Sud (primer nombre oficial del Estado soberano llamado
+              Argentina) respecto a España y cualquier otro poder extranjero, el 9 de julio de 1816. Es la provincia de
+              menor superficie de la Argentina y la de mayor densidad de población del país. Tucumán fue sede de los
+              festejos del Bicentenario por los 200 años de la Declaración de independencia de la Argentina.
+
+            </p>
+          </section>
+        </div>
+        <div class="col-md-12 col-lg-6">
+          <section class="sectionHome border">
+            <a class="sectionHome__enlace" href="Catamarca.html">
+              <h3 class="sectionHome__subtitulos--catamarca">
+                Catamarca
+              </h3>
+            </a>
+            <div id="carouselExampleIndicators4" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators4" data-bs-slide-to="0" class="active"
+                  aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators4" data-bs-slide-to="1"
+                  aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators4" data-bs-slide-to="2"
+                  aria-label="Slide 3"></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="img/catamarca.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="img/atractivosCatamarca/Antofagasta de la sierra.jpg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="img/atractivosCatamarca/Fiambala.jpg" class="d-block w-100" alt="...">
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators4"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators4"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+
+            <p class="sectionHome__texto mt-4">Catamarca es una de las 23 provincias en las que está dividida la
+              República Argentina.Su capital y ciudad más poblada es San Fernando del Valle de Catamarca.
+              Está ubicada al noroeste del país, en la región del Norte Grande Argentino, limitando al norte con Salta,
+              al este con Tucumán y Santiago del Estero, al sureste con Córdoba, al sur con La Rioja y al oeste con
+              Chile, cuyo límite está determinado por la divisoria de agua de la cordillera de los Andes. Con 368 000
+              habitantes en 2010 es la quinta provincia menos poblada.
+              Fue habitada por la población nativa de la región durante varios milenios hasta la intervención de los
+              conquistadores españoles a mediados del siglo XVII, y desde entonces ha recibido varios grupos de
+              inmigrantes, especialmente españoles, aunque a diferencia de otras provincias argentinas, estos no han
+              superado a la población originaria; y de la mezcla de ambos grupos surgió la actual población de la
+              provincia, compuesta principalmente por mestizos.
+              Su economía es una de las más diversificadas del país, ocupándose fundamentalmente de la minería, la
+              industria, el comercio, el turismo, la ganadería y la agricultura. Además ocupa el puesto puesto número 12
+              en el ranking de desarrollo humano de las jurisdicciones de primer orden argentinas.
+
+
+            </p>
+          </section>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <!-- footer metodologia bem -->
+    <div class="listasFooter">
+      <div class="agruparListasFooter">
+        <section class="linksUtilesFooter">
+          <h4 class="linksUtilesFooter__subtitulo">Sitios relacionados</h4>
+          <ul class="linksUtilesFooter__lista">
+            <li>
+              <a class="linksUtilesFooter__link" href="http://www.argentinaviajera.com.ar/">Argentina Viajera</a>
+            </li>
+            <li>
+              <a class="linksUtilesFooter__link"
+                href="https://www.tripadvisor.com.ar/Tourism-g312811-Northern_Argentina-Vacations.html">TripAdvisor</a>
+            </li>
+            <li>
+              <a class="linksUtilesFooter__link" href="https://www.argentinaturismo.com.ar/">Argentina Turismo</a>
+            </li>
+            <li>
+              <a class="linksUtilesFooter__link" href="https://www.argentina.gob.ar/turismoydeportes">Ministerio de
+                Turismo y Deportes</a>
+            </li>
+            <li>
+              <a class="linksUtilesFooter__link" href="https://www.argentina.tur.ar/#!/ar/home">Turismo Argentina</a>
+            </li>
+          </ul>
+        </section>
+        <section class="mapaDelSitioFooter">
+          <h4 class="mapaDelSitioFooter__subtitulo">Mapa del Sitio</h4>
+          <ul class="mapaDelSitioFooter__lista">
+            <li>
+              <a class="mapaDelSitioFooter__link" href="Jujuy.html">Provincia de Jujuy</a>
+            </li>
+            <li>
+              <a class="mapaDelSitioFooter__link" href="Salta.html">Provincia de Salta</a>
+            </li>
+            <li>
+              <a class="mapaDelSitioFooter__link" href="Tucuman.html">Provincia de Tucumán</a>
+            </li>
+            <li>
+              <a class="mapaDelSitioFooter__link" href="Catamarca.html">Provincia de Catamarca</a>
+            </li>
+            <li>
+              <a class="mapaDelSitioFooter__link" href="Contacto.html">Contactanos</a>
+            </li>
+          </ul>
+        </section>
+      </div>
+      <section class="MensajeFooter">
+        <div class="MensajeFooter__centrar">
+          <p class="MensajeFooter__texto">No dejes de conocer una de las regiones mas increibles de la República
+            Argentina</p>
+          <img src="img/montana-del-arco-iris.png" alt="" width="70" height="70">
+        </div>
+      </section>
+    </div>
+    <div class="divLogosFooter">
+      <div class="divLogosFooter__centrarLogo">
+        <a class="divLogosFooter__enlace" href="">
+          <img class="divLogosFooter__logo" src="img/whatsapp.png" alt="logoWhatsapp">
+        </a>
+        <a class="divLogosFooter__enlace" href="">
+          <img class="divLogosFooter__logo" src="img/instagram.png" alt="logoInstagram">
+        </a>
+        <a class="divLogosFooter__enlace" href="">
+          <img class="divLogosFooter__logo" src="img/facebook.png" alt="logoFacebook">
+        </a>
+      </div>
+    </div>
+    <div class="pieDeFooter">
+      <p class="pieDeFooter__texto">Copyright © Todos los derechos reservados -- Federico Villarreal</p>
+    </div>
+    <a id="Subir" href="#top"><img class="Subir__imagen" src="img/up-arrow.png" alt=""></a>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous">
+  </script>
+
 </body>
+
 </html>
